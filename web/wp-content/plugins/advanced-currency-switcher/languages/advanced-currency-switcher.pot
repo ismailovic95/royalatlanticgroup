@@ -1,0 +1,332 @@
+# Copyright (C) 2019
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/advanced-currency-switcher\n"
+"POT-Creation-Date: 2019-07-18 09:37:20+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: classes/class-cs-loader.php:122
+msgid "Empty API key!"
+msgstr ""
+
+#: classes/class-cs-loader.php:175
+msgid "Once hourly"
+msgstr ""
+
+#: classes/class-cs-loader.php:181
+msgid "Once daily"
+msgstr ""
+
+#: classes/class-cs-loader.php:187
+msgid "Once every week"
+msgstr ""
+
+#: currency-switcher.php:45
+msgid "Settings"
+msgstr ""
+
+#: includes/cs-main-frontend.php:16
+msgid "Currency Switcher"
+msgstr ""
+
+#: includes/cs-main-frontend.php:48
+msgid "Global Settings"
+msgstr ""
+
+#: includes/cs-main-frontend.php:58
+msgid "User Manual"
+msgstr ""
+
+#: includes/cs-settings-frontend.php:84
+msgid "Settings Saved."
+msgstr ""
+
+#: includes/cs-settings-frontend.php:92
+msgid ""
+"The API key you entered seems invalid. Please enter the correct API key & "
+"try again."
+msgstr ""
+
+#: includes/cs-settings-frontend.php:100
+msgid ""
+"Your API key allows only USD is a base currency. Please change the base "
+"currency to USD & save changes again."
+msgstr ""
+
+#: includes/cs-settings-frontend.php:108
+msgid "Please enter the API key for get currency rate."
+msgstr ""
+
+#: includes/cs-settings-frontend.php:120
+msgid "Select Conversion Method"
+msgstr ""
+
+#: includes/cs-settings-frontend.php:124
+msgid "Manual Conversion Rate"
+msgstr ""
+
+#: includes/cs-settings-frontend.php:125
+msgid "Open Exchange Rate API"
+msgstr ""
+
+#: includes/cs-settings-frontend.php:134
+msgid "App ID"
+msgstr ""
+
+#: includes/cs-settings-frontend.php:140
+msgid ""
+"Enter your Open Exchange Rate App ID. If you don’t have an App ID, you can "
+"refer to the "
+msgstr ""
+
+#: includes/cs-settings-frontend.php:142
+msgid "and get one."
+msgstr ""
+
+#: includes/cs-settings-frontend.php:148
+msgid "Frequency"
+msgstr ""
+
+#: includes/cs-settings-frontend.php:153
+msgid "Manual"
+msgstr ""
+
+#: includes/cs-settings-frontend.php:156
+msgid "Hourly"
+msgstr ""
+
+#: includes/cs-settings-frontend.php:159
+msgid "Daily"
+msgstr ""
+
+#: includes/cs-settings-frontend.php:162
+msgid "Weekly"
+msgstr ""
+
+#: includes/cs-settings-frontend.php:166
+msgid ""
+"Set how frequently you want to update the currency conversion rate. This "
+"setting is helpful to reduce API calls."
+msgstr ""
+
+#: includes/cs-settings-frontend.php:176
+msgid "Currency"
+msgstr ""
+
+#: includes/cs-settings-frontend.php:177
+msgid "Conversion Rate"
+msgstr ""
+
+#: includes/cs-settings-frontend.php:178
+msgid "Display at Frontend?"
+msgstr ""
+
+#: includes/cs-settings-frontend.php:179
+msgid "Button / Dropdown Label"
+msgstr ""
+
+#: includes/cs-settings-frontend.php:180
+msgid "Currency Symbol"
+msgstr ""
+
+#: includes/cs-settings-frontend.php:208
+msgid "United States Dollar (USD)"
+msgstr ""
+
+#: includes/cs-settings-frontend.php:212 includes/cs-settings-frontend.php:213
+msgid "Enter the USD value"
+msgstr ""
+
+#: includes/cs-settings-frontend.php:229 includes/cs-settings-frontend.php:263
+#: includes/cs-settings-frontend.php:295 includes/cs-settings-frontend.php:328
+msgid "Enter Button Text"
+msgstr ""
+
+#: includes/cs-settings-frontend.php:232 includes/cs-settings-frontend.php:266
+#: includes/cs-settings-frontend.php:298 includes/cs-settings-frontend.php:331
+msgid "Provide Symbol "
+msgstr ""
+
+#: includes/cs-settings-frontend.php:244
+msgid "European Union (EUR)"
+msgstr ""
+
+#: includes/cs-settings-frontend.php:249 includes/cs-settings-frontend.php:250
+msgid "Enter the EURO value"
+msgstr ""
+
+#: includes/cs-settings-frontend.php:278
+msgid "Australian Dollar (AUD)"
+msgstr ""
+
+#: includes/cs-settings-frontend.php:281 includes/cs-settings-frontend.php:282
+msgid "Enter the AUD value"
+msgstr ""
+
+#: includes/cs-settings-frontend.php:310
+msgid "Indian Rupee (INR)"
+msgstr ""
+
+#: includes/cs-settings-frontend.php:314 includes/cs-settings-frontend.php:315
+msgid "Enter the INR value"
+msgstr ""
+
+#: includes/cs-settings-frontend.php:337
+msgid "Note:"
+msgstr ""
+
+#: includes/cs-settings-frontend.php:337
+msgid ""
+" Please make sure you enter 1 as the Conversion rate for the selected base "
+"currency and enter an exchange rate for the other currencies in the list."
+msgstr ""
+
+#: includes/cs-settings-frontend.php:338
+msgid "Please select at least one checkbox except the base currency in the"
+msgstr ""
+
+#: includes/cs-settings-frontend.php:338
+msgid " Display on the Frontend column."
+msgstr ""
+
+#: includes/cs-settings-frontend.php:354
+msgid "Select how you wish to display the currency conversion action at frontend."
+msgstr ""
+
+#: includes/cs-settings-frontend.php:360
+msgid "Number Format"
+msgstr ""
+
+#: includes/cs-settings-frontend.php:365
+msgid "Round Number (e.g.12)"
+msgstr ""
+
+#: includes/cs-settings-frontend.php:368
+msgid "1 Decimal Place (e.g.12.3)"
+msgstr ""
+
+#: includes/cs-settings-frontend.php:371
+msgid "2 Decimal Places (e.g.12.34)"
+msgstr ""
+
+#: includes/cs-settings-frontend.php:375
+msgid "Control decimal places of the currency that displays after conversion."
+msgstr ""
+
+#: includes/cs-settings-frontend.php:384
+msgid "Save Changes"
+msgstr ""
+
+#: includes/cs-user-manual.php:15
+msgid "Welcome to Currency Switcher!"
+msgstr ""
+
+#: includes/cs-user-manual.php:17
+msgid ""
+"The Currency Switcher plugin is built to help you add a currency switcher "
+"anywhere on your website. Quickly manage settings and paste the shortcode "
+"in the desired position!"
+msgstr ""
+
+#: includes/cs-user-manual.php:19
+msgid "Getting Started"
+msgstr ""
+
+#: includes/cs-user-manual.php:21
+msgid "You can set this up in 4 easy steps!"
+msgstr ""
+
+#: includes/cs-user-manual.php:25
+msgid "1. Select the conversion method - Manual or Open Exchange Rate API"
+msgstr ""
+
+#: includes/cs-user-manual.php:28
+msgid ""
+"Manual Conversion Rate - You will have to enter a base conversion rate and "
+"other currency values manually."
+msgstr ""
+
+#: includes/cs-user-manual.php:32
+msgid ""
+"Open Exchange Rate API - You can authenticate your Open Exchange Rate API "
+"and fetch real-time Exchange Rates from it.\n"
+msgstr ""
+
+#: includes/cs-user-manual.php:40
+msgid "2. Enter the required fields depending on the method you pick."
+msgstr ""
+
+#: includes/cs-user-manual.php:41
+msgid "3. Select the Switcher Style and Number Format."
+msgstr ""
+
+#: includes/cs-user-manual.php:42
+msgid "4. Copy the shortcodes from below and paste it on the page."
+msgstr ""
+
+#: includes/cs-user-manual.php:45
+msgid "Shortcodes"
+msgstr ""
+
+#: includes/cs-user-manual.php:49
+msgid "Shortcode for Currency switcher"
+msgstr ""
+
+#: includes/cs-user-manual.php:53
+msgid ""
+"This shortcode lets you display field within which the original and the "
+"converted price will be seen."
+msgstr ""
+
+#: includes/cs-user-manual.php:53
+msgid ""
+"Enter the cost (numerical value) of the product within the inverted commas "
+"(“”). For example, if the cost of a product is $100, the shortcode will be"
+msgstr ""
+
+#: includes/cs-user-manual.php:56
+msgid "Shortcode for Currency switcher type"
+msgstr ""
+
+#: includes/cs-user-manual.php:60
+msgid ""
+"Copy and paste this shortcode in the place you wish to add the switcher on "
+"the page."
+msgstr ""
+
+#: includes/cs-user-manual.php:62
+msgid ""
+"The Global Settings allow you to select the switcher type you wish to use. "
+"This can either be a drop down menu or a button."
+msgstr ""
+
+#: includes/cs-user-manual.php:67
+msgid "Disclaimer"
+msgstr ""
+
+#: includes/cs-user-manual.php:69
+msgid ""
+"The accuracy of the currency may vary from time to time. This depends on "
+"the API you are using for the plugin. Since these values come from the "
+"exchange rate detectors, we are not responsible for the values by them."
+msgstr ""

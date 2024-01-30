@@ -1,0 +1,205 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ELEX WooCommerce Product Price Custom Text (Before & "
+"After Text) and Discount\n"
+"POT-Creation-Date: 2021-12-03 13:39+0530\n"
+"PO-Revision-Date: 2021-12-03 13:39+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: elex-woocommerce-product-price-custom-text-discount.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: elex-woocommerce-product-price-custom-text-discount.php:39
+msgid "Settings"
+msgstr "Ajustes"
+
+#: elex-woocommerce-product-price-custom-text-discount.php:40
+msgid "ELEX Premium Plugins"
+msgstr "ELEX Premium Plugins"
+
+#: includes/elex-ppct-discount-woocommerce-setting.php:19
+#: includes/elex-ppct-discount-woocommerce-setting.php:24
+#: includes/elex-ppct-discount-woocommerce-setting.php:98
+#: includes/elex-ppct-woocmmerce-variation-settings.php:25
+msgid "Custom Text & Discount"
+msgstr "Texto personalizado y descuento"
+
+#: includes/elex-ppct-discount-woocommerce-setting.php:25
+msgid "Go Premium!"
+msgstr "¡Obten la versión Premium!"
+
+#: includes/elex-ppct-discount-woocommerce-setting.php:92
+msgid "Product Price Custom Text & Discount:"
+msgstr "Texto personalizado del precio del producto y descuento:"
+
+#: includes/elex-ppct-discount-woocommerce-setting.php:100
+#: includes/elex-ppct-woocmmerce-variation-settings.php:26
+msgid "Enable"
+msgstr "Habilitar"
+
+#: includes/elex-ppct-discount-woocommerce-setting.php:105
+#: includes/elex-ppct-woocmmerce-variation-settings.php:148
+msgid "Add Prefix"
+msgstr "Agregar prefijo"
+
+#: includes/elex-ppct-discount-woocommerce-setting.php:107
+msgid "Add a prefix text with your product price"
+msgstr "Agregar un texto de prefijo con el precio del producto"
+
+#: includes/elex-ppct-discount-woocommerce-setting.php:113
+#: includes/elex-ppct-woocmmerce-variation-settings.php:158
+msgid "Add Suffix"
+msgstr "Agregar sufijo"
+
+#: includes/elex-ppct-discount-woocommerce-setting.php:115
+#: includes/elex-ppct-woocmmerce-variation-settings.php:45
+msgid "Add a suffix text with your product price."
+msgstr "Agregue un texto de sufijo con el precio del producto."
+
+#: includes/elex-ppct-discount-woocommerce-setting.php:121
+#: includes/elex-ppct-discount-woocommerce-setting.php:129
+#: includes/elex-ppct-woocmmerce-variation-settings.php:50
+#: includes/elex-ppct-woocmmerce-variation-settings.php:59
+#: includes/elex-ppct-woocmmerce-variation-settings.php:168
+#: includes/elex-ppct-woocmmerce-variation-settings.php:182
+msgid "Discount"
+msgstr "Descuento"
+
+#: includes/elex-ppct-discount-woocommerce-setting.php:123
+msgid ""
+"Specify the discount amount you want to apply. This discount will be applied "
+"to all products."
+msgstr ""
+"Especifique el importe de descuento que desea aplicar. Este descuento se "
+"aplicará a todos los productos."
+
+#: includes/elex-ppct-discount-woocommerce-setting.php:131
+msgid ""
+"Specify the discount percentage you want to apply. This discount will be "
+"applied to all products."
+msgstr ""
+"Especifique el porcentaje de descuento que desea aplicar. Este descuento se "
+"aplicará a todos los productos."
+
+#: includes/elex-ppct-woocmmerce-variation-settings.php:10
+msgid "Price Text & Discount "
+msgstr "Texto de precio y descuento "
+
+#: includes/elex-ppct-woocmmerce-variation-settings.php:35
+msgid "Prefix"
+msgstr "Prefijo"
+
+#: includes/elex-ppct-woocmmerce-variation-settings.php:37
+msgid "Add a prefix text with your product price."
+msgstr "Agregue un texto de prefijo con el precio de su producto."
+
+#: includes/elex-ppct-woocmmerce-variation-settings.php:43
+msgid "Suffix"
+msgstr "Sufijo"
+
+#: includes/elex-ppct-woocmmerce-variation-settings.php:53
+msgid ""
+"Specify the discount amount you want to apply. This discount will be applied "
+"to this particular product."
+msgstr ""
+"Especifique el importe de descuento que desea aplicar. Este descuento se "
+"aplicará a este producto en particular."
+
+#: includes/elex-ppct-woocmmerce-variation-settings.php:62
+msgid ""
+"Specify the discount percentage you want to apply. This discount will be "
+"applied to this particular product."
+msgstr ""
+"Especifique el porcentaje de descuento que desea aplicar. Este descuento se "
+"aplicará a este producto en particular."
+
+#: includes/elex-ppct-woocmmerce-variation-settings.php:133
+msgid "Hide prefix for this variation."
+msgstr "Ocultar prefijo para esta variación."
+
+#: includes/elex-ppct-woocmmerce-variation-settings.php:134
+msgid "Hide Prefix"
+msgstr "Ocultar prefijo"
+
+#: includes/elex-ppct-woocmmerce-variation-settings.php:137
+msgid "Hide suffix for this variation."
+msgstr "Ocultar sufijo para esta variación."
+
+#: includes/elex-ppct-woocmmerce-variation-settings.php:138
+msgid "Hide Suffix"
+msgstr "Ocultar sufijo"
+
+#: includes/elex-ppct-woocmmerce-variation-settings.php:150
+msgid "Specify the prefix for this variation."
+msgstr "Especifique el prefijo para esta variación."
+
+#: includes/elex-ppct-woocmmerce-variation-settings.php:160
+msgid "Specify the suffix for this variation."
+msgstr "Especifique el sufijo para esta variación."
+
+#: includes/elex-ppct-woocmmerce-variation-settings.php:174
+msgid ""
+"Specify the discount amount you want to apply. This discount will be applied "
+"to this particular product variation."
+msgstr ""
+"Especifique el importe de descuento que desea aplicar. Este descuento se "
+"aplicará a esta variación de producto en particular."
+
+#: includes/elex-ppct-woocmmerce-variation-settings.php:188
+msgid ""
+"Specify the discount percentage you want to apply. This discount will be "
+"applied to this particular product variation."
+msgstr ""
+"Especifique el porcentaje de descuento que desea aplicar. Este descuento se "
+"aplicará a esta variación de producto en particular."
+
+#. Plugin Name of the plugin/theme
+msgid ""
+"ELEX WooCommerce Product Price Custom Text (Before & After Text) and Discount"
+msgstr ""
+"Elex WooCommerce Precio del producto Texto personalizado (antes y después "
+"del texto) y descuento"
+
+#. Plugin URI of the plugin/theme
+msgid "https://elextensions.com/plugin"
+msgstr "https://elextensions.com/plugin"
+
+#. Description of the plugin/theme
+msgid ""
+"The plugin simplifies the task to add a text before and after the product "
+"price both globally and individually.It also allows you to apply a quick "
+"discount for your products."
+msgstr ""
+"El plugin simplifica la tarea de añadir un texto antes y después del precio "
+"del producto tanto a nivel global como individual. También le permite "
+"aplicar un descuento rápido para sus productos."
+
+#. Author of the plugin/theme
+msgid "ELEXtensions"
+msgstr "ELEXtensions"
+
+#. Author URI of the plugin/theme
+msgid "https://elextensions.com/"
+msgstr "https://elextensions.com"
+
+#~ msgid "<li><strong><font color=\"red\">Go Premium!</font></strong></li>"
+#~ msgstr "<li><strong><font color=\"red\">¡Vaya Premium!</font></strong></li>"
+
+#~ msgid "Product Price Custom Text & Discount"
+#~ msgstr "Texto personalizado del precio del producto y descuento"
+
+#~ msgid "ELEX Plugins You May Be Interested In"
+#~ msgstr "Plugins ELEX en los que te puede interesar"

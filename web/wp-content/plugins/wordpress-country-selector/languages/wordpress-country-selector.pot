@@ -1,0 +1,1510 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress Country Selector\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-27 07:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: wordpress-country-selector.php:86
+msgid ""
+"Wordpress Country Selector requires the Redux Framework plugin. Please "
+"install or activate it before!"
+msgstr ""
+
+#: admin/class-wordpress-country-selector-admin.php:170 data/countries.php:245
+msgid "International"
+msgstr ""
+
+#: admin/options-init.php:124
+msgid "Information"
+msgstr ""
+
+#: admin/options-init.php:125
+msgid "<p>Need support? Please use the comment function on codecanyon.</p>"
+msgstr ""
+
+#: admin/options-init.php:147
+#: admin/class-wordpress-country-selector-widget.php:19
+msgid "Country Selector"
+msgstr ""
+
+#: admin/options-init.php:149
+msgid "Need support? Please use the comment function on codecanyon."
+msgstr ""
+
+#: admin/options-init.php:154
+msgid "General"
+msgstr ""
+
+#: admin/options-init.php:162
+msgid "Enable"
+msgstr ""
+
+#: admin/options-init.php:163
+msgid "Enable the Country Selector."
+msgstr ""
+
+#: admin/options-init.php:169
+msgid "Cookie Lifetime."
+msgstr ""
+
+#: admin/options-init.php:170
+msgid "Days before the Cookie expires."
+msgstr ""
+
+#: admin/options-init.php:179
+msgid "Show Default Country"
+msgstr ""
+
+#: admin/options-init.php:180
+msgid ""
+"Show a Default Country if none of Users languages are covered. <br/>"
+"Otherwise the user will not get a Popup."
+msgstr ""
+
+#: admin/options-init.php:186
+msgid "Default Country URL"
+msgstr ""
+
+#: admin/options-init.php:187
+msgid "This site will be used if the users locale is not covered!"
+msgstr ""
+
+#: admin/options-init.php:194
+msgid "Redirect Default URL by Cookie"
+msgstr ""
+
+#: admin/options-init.php:195
+msgid ""
+"If a user has choosen a country before and visits the default site, he will "
+"be redirected. Users still can access country URLs (other than the force "
+"redirect method)."
+msgstr ""
+
+#: admin/options-init.php:203
+msgid "Get current Sites Country by Language"
+msgstr ""
+
+#: admin/options-init.php:204
+msgid ""
+"If checked the current sites country will be taken from your language "
+"settings in wp-admin. Otherwise it will cross check URLs, which costs more "
+"performance."
+msgstr ""
+
+#: admin/options-init.php:211
+msgid "Link to current page"
+msgstr ""
+
+#: admin/options-init.php:212
+msgid ""
+"User on site domain.com/test/ will see a link goes to domain.de/test/ for "
+"example. It is important, that you have the same URL names."
+msgstr ""
+
+#: admin/options-init.php:218
+msgid "Force Redirect"
+msgstr ""
+
+#: admin/options-init.php:219
+msgid "Automatically Redirect the User."
+msgstr ""
+
+#: admin/options-init.php:225
+msgid "Seconds when the redirect should happen."
+msgstr ""
+
+#: admin/options-init.php:235
+msgid "Exclude logged In"
+msgstr ""
+
+#: admin/options-init.php:236
+msgid "Do not redirect logged in users"
+msgstr ""
+
+#: admin/options-init.php:243
+msgid "Country Page in Modal?"
+msgstr ""
+
+#: admin/options-init.php:244
+msgid ""
+"Load country overview page in a Modal when somebody clicks on the widget "
+"link."
+msgstr ""
+
+#: admin/options-init.php:251
+msgid "Countries"
+msgstr ""
+
+#: admin/options-init.php:259
+msgid "Page"
+msgstr ""
+
+#: admin/options-init.php:266
+msgid "Enable Page"
+msgstr ""
+
+#: admin/options-init.php:272
+msgid "Country Selector URL"
+msgstr ""
+
+#: admin/options-init.php:273
+msgid ""
+"Set your Country Selector URL.<br/>Remember to add the shortcode: "
+"[wordpress_country_selector]"
+msgstr ""
+
+#: admin/options-init.php:280
+msgid "Show Continent Selector"
+msgstr ""
+
+#: admin/options-init.php:281
+msgid "Show the Continet Maps with that you can filter."
+msgstr ""
+
+#: admin/options-init.php:288
+msgid "Page Style"
+msgstr ""
+
+#: admin/options-init.php:299
+msgid "Notice Text"
+msgstr ""
+
+#: admin/options-init.php:300
+msgid "Please choose a region and then a country to continue."
+msgstr ""
+
+#: admin/options-init.php:307
+msgid "Button Text"
+msgstr ""
+
+#: admin/options-init.php:308
+msgid "Go to Website"
+msgstr ""
+
+#: admin/options-init.php:314
+msgid "Show Country Flags"
+msgstr ""
+
+#: admin/options-init.php:315
+msgid "Show flags next to each country."
+msgstr ""
+
+#: admin/options-init.php:322
+msgid "Flag Style"
+msgstr ""
+
+#: admin/options-init.php:333
+msgid "Show Country Map"
+msgstr ""
+
+#: admin/options-init.php:334
+msgid "Show a map next to each country."
+msgstr ""
+
+#: admin/options-init.php:342
+msgid "Popup"
+msgstr ""
+
+#: admin/options-init.php:349
+msgid "Enable Popup"
+msgstr ""
+
+#: admin/options-init.php:355
+msgid "Popup Style"
+msgstr ""
+
+#: admin/options-init.php:356
+msgid "The Popup Style"
+msgstr ""
+
+#: admin/options-init.php:369
+msgid "Text Color"
+msgstr ""
+
+#: admin/options-init.php:377
+msgid "Background Color"
+msgstr ""
+
+#: admin/options-init.php:384
+msgid "Modal size"
+msgstr ""
+
+#: admin/options-init.php:385
+msgid "Size of the modal."
+msgstr ""
+
+#: admin/options-init.php:387
+msgid "Normal"
+msgstr ""
+
+#: admin/options-init.php:388
+msgid "Small"
+msgstr ""
+
+#: admin/options-init.php:389
+msgid "Large"
+msgstr ""
+
+#: admin/options-init.php:397
+msgid "Always Show Popup"
+msgstr ""
+
+#: admin/options-init.php:398
+msgid ""
+"Show the Popup regardless if the country of the site is the same as the "
+"users country."
+msgstr ""
+
+#: admin/options-init.php:405
+msgid "Show Header"
+msgstr ""
+
+#: admin/options-init.php:412
+msgid "Custom Header Text"
+msgstr ""
+
+#: admin/options-init.php:413
+#, php-format
+msgid "So you are from %s?"
+msgstr ""
+
+#: admin/options-init.php:420
+msgid "Show Body"
+msgstr ""
+
+#: admin/options-init.php:427 admin/options-init.php:434
+msgid "Seems Like Text"
+msgstr ""
+
+#: admin/options-init.php:428
+#, php-format
+msgid "<b>Seems like you are coming from %s!</b>"
+msgstr ""
+
+#: admin/options-init.php:435
+#: public/class-wordpress-country-selector-public.php:983
+msgid "Do you want to visit our international Website?"
+msgstr ""
+
+#: admin/options-init.php:441
+msgid "Country Text"
+msgstr ""
+
+#: admin/options-init.php:442
+#: public/class-wordpress-country-selector-public.php:984
+msgid "Do you want to visit our Website in your country?"
+msgstr ""
+
+#: admin/options-init.php:449
+msgid "Redirect Text"
+msgstr ""
+
+#: admin/options-init.php:450
+#: public/class-wordpress-country-selector-public.php:985
+msgid "We will redirect you!"
+msgstr ""
+
+#: admin/options-init.php:456
+msgid "Continue Text"
+msgstr ""
+
+#: admin/options-init.php:457
+msgid "Continue"
+msgstr ""
+
+#: admin/options-init.php:464
+msgid "Visit International Text"
+msgstr ""
+
+#: admin/options-init.php:465
+msgid "Visit International"
+msgstr ""
+
+#: admin/options-init.php:472
+#, php-format
+msgid "Got to %s Text"
+msgstr ""
+
+#: admin/options-init.php:473
+#, php-format
+msgid "Go to %s"
+msgstr ""
+
+#: admin/options-init.php:480
+msgid "Stay at International Text"
+msgstr ""
+
+#: admin/options-init.php:481
+msgid "Stay at International"
+msgstr ""
+
+#: admin/options-init.php:487
+#, php-format
+msgid "Stay at %s Text"
+msgstr ""
+
+#: admin/options-init.php:488
+#, php-format
+msgid "Stay at %s"
+msgstr ""
+
+#: admin/options-init.php:495
+msgid "Show Footer"
+msgstr ""
+
+#: admin/options-init.php:503
+msgid "Advanced settings"
+msgstr ""
+
+#: admin/options-init.php:504
+msgid "Custom stylesheet / javascript."
+msgstr ""
+
+#: admin/options-init.php:512
+msgid "Custom CSS"
+msgstr ""
+
+#: admin/options-init.php:513
+msgid "Add some stylesheet if you want."
+msgstr ""
+
+#: admin/options-init.php:524
+msgid "Do Not load Bootstrap CSS"
+msgstr ""
+
+#: admin/options-init.php:530
+msgid "Do Not load Bootstrap JS"
+msgstr ""
+
+#: admin/class-wordpress-country-selector-widget.php:16
+msgid ""
+"This will show the current locale with a flag and a link to the country "
+"selector page."
+msgstr ""
+
+#: admin/class-wordpress-country-selector-widget.php:168
+msgid "Title"
+msgstr ""
+
+#: admin/class-wordpress-country-selector-widget.php:169
+msgid "Choose your country"
+msgstr ""
+
+#: admin/class-wordpress-country-selector-widget.php:185
+msgid "Select Your Country"
+msgstr ""
+
+#: data/continents.php:5
+msgid "Africa"
+msgstr ""
+
+#: data/continents.php:8
+msgid "Oceania"
+msgstr ""
+
+#: data/continents.php:15
+msgid "Americas"
+msgstr ""
+
+#: data/continents.php:29
+msgid "Asia"
+msgstr ""
+
+#: data/continents.php:32
+msgid "Europe"
+msgstr ""
+
+#: data/countriesByContinents.php:4 data/countries.php:6
+msgid "Algeria"
+msgstr ""
+
+#: data/countriesByContinents.php:5 data/countries.php:9
+msgid "Angola"
+msgstr ""
+
+#: data/countriesByContinents.php:6 data/countries.php:26
+msgid "Benin"
+msgstr ""
+
+#: data/countriesByContinents.php:7 data/countries.php:31
+msgid "Botswana"
+msgstr ""
+
+#: data/countriesByContinents.php:8 data/countries.php:39
+msgid "Burkina Faso"
+msgstr ""
+
+#: data/countriesByContinents.php:9 data/countries.php:40
+msgid "Burundi"
+msgstr ""
+
+#: data/countriesByContinents.php:10 data/countries.php:42
+msgid "Cameroon"
+msgstr ""
+
+#: data/countriesByContinents.php:11 data/countries.php:45
+msgid "Cape Verde"
+msgstr ""
+
+#: data/countriesByContinents.php:12 data/countries.php:47
+msgid "Central African Republic"
+msgstr ""
+
+#: data/countriesByContinents.php:13 data/countries.php:48
+msgid "Chad"
+msgstr ""
+
+#: data/countriesByContinents.php:14 data/countries.php:54
+msgid "Comoros"
+msgstr ""
+
+#: data/countriesByContinents.php:15 data/countries.php:55
+msgid "Congo - Brazzaville"
+msgstr ""
+
+#: data/countriesByContinents.php:16 data/countries.php:56
+msgid "Congo - Kinshasa"
+msgstr ""
+
+#: data/countriesByContinents.php:17 data/countries.php:63
+msgid "Côte d’Ivoire"
+msgstr ""
+
+#: data/countriesByContinents.php:18 data/countries.php:65
+msgid "Djibouti"
+msgstr ""
+
+#: data/countriesByContinents.php:19 data/countries.php:70
+msgid "Egypt"
+msgstr ""
+
+#: data/countriesByContinents.php:20 data/countries.php:72
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: data/countriesByContinents.php:21 data/countries.php:73
+msgid "Eritrea"
+msgstr ""
+
+#: data/countriesByContinents.php:22 data/countries.php:75
+msgid "Ethiopia"
+msgstr ""
+
+#: data/countriesByContinents.php:23 data/countries.php:85
+msgid "Gabon"
+msgstr ""
+
+#: data/countriesByContinents.php:24 data/countries.php:86
+msgid "Gambia"
+msgstr ""
+
+#: data/countriesByContinents.php:25 data/countries.php:89
+msgid "Ghana"
+msgstr ""
+
+#: data/countriesByContinents.php:26 data/countries.php:98
+msgid "Guinea"
+msgstr ""
+
+#: data/countriesByContinents.php:27 data/countries.php:99
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: data/countriesByContinents.php:28 data/countries.php:121
+msgid "Kenya"
+msgstr ""
+
+#: data/countriesByContinents.php:29 data/countries.php:128
+msgid "Lesotho"
+msgstr ""
+
+#: data/countriesByContinents.php:30 data/countries.php:129
+msgid "Liberia"
+msgstr ""
+
+#: data/countriesByContinents.php:31 data/countries.php:130
+msgid "Libya"
+msgstr ""
+
+#: data/countriesByContinents.php:32 data/countries.php:136
+msgid "Madagascar"
+msgstr ""
+
+#: data/countriesByContinents.php:33 data/countries.php:137
+msgid "Malawi"
+msgstr ""
+
+#: data/countriesByContinents.php:34 data/countries.php:140
+msgid "Mali"
+msgstr ""
+
+#: data/countriesByContinents.php:35 data/countries.php:144
+msgid "Mauritania"
+msgstr ""
+
+#: data/countriesByContinents.php:36 data/countries.php:145
+msgid "Mauritius"
+msgstr ""
+
+#: data/countriesByContinents.php:37 data/countries.php:146
+msgid "Mayotte"
+msgstr ""
+
+#: data/countriesByContinents.php:38 data/countries.php:156
+msgid "Morocco"
+msgstr ""
+
+#: data/countriesByContinents.php:39 data/countries.php:157
+msgid "Mozambique"
+msgstr ""
+
+#: data/countriesByContinents.php:40 data/countries.php:159
+msgid "Namibia"
+msgstr ""
+
+#: data/countriesByContinents.php:41 data/countries.php:168
+msgid "Niger"
+msgstr ""
+
+#: data/countriesByContinents.php:42 data/countries.php:169
+msgid "Nigeria"
+msgstr ""
+
+#: data/countriesByContinents.php:43 data/countries.php:195
+msgid "Rwanda"
+msgstr ""
+
+#: data/countriesByContinents.php:44 data/countries.php:196
+msgid "Réunion"
+msgstr ""
+
+#: data/countriesByContinents.php:45 data/countries.php:198
+msgid "Saint Helena"
+msgstr ""
+
+#: data/countriesByContinents.php:46 data/countries.php:207
+msgid "Senegal"
+msgstr ""
+
+#: data/countriesByContinents.php:47 data/countries.php:210
+msgid "Seychelles"
+msgstr ""
+
+#: data/countriesByContinents.php:48 data/countries.php:211
+msgid "Sierra Leone"
+msgstr ""
+
+#: data/countriesByContinents.php:49 data/countries.php:216
+msgid "Somalia"
+msgstr ""
+
+#: data/countriesByContinents.php:50 data/countries.php:217
+msgid "South Africa"
+msgstr ""
+
+#: data/countriesByContinents.php:51 data/countries.php:222
+msgid "Sudan"
+msgstr ""
+
+#: data/countriesByContinents.php:52 data/countries.php:225
+msgid "Swaziland"
+msgstr ""
+
+#: data/countriesByContinents.php:53 data/countries.php:229
+msgid "São Tomé and Príncipe"
+msgstr ""
+
+#: data/countriesByContinents.php:54 data/countries.php:232
+msgid "Tanzania"
+msgstr ""
+
+#: data/countriesByContinents.php:55 data/countries.php:235
+msgid "Togo"
+msgstr ""
+
+#: data/countriesByContinents.php:56 data/countries.php:239
+msgid "Tunisia"
+msgstr ""
+
+#: data/countriesByContinents.php:57 data/countries.php:248
+msgid "Uganda"
+msgstr ""
+
+#: data/countriesByContinents.php:58 data/countries.php:263
+msgid "Western Sahara"
+msgstr ""
+
+#: data/countriesByContinents.php:59 data/countries.php:265
+msgid "Zambia"
+msgstr ""
+
+#: data/countriesByContinents.php:60 data/countries.php:266
+msgid "Zimbabwe"
+msgstr ""
+
+#: data/countriesByContinents.php:63 data/countries.php:10
+msgid "Anguilla"
+msgstr ""
+
+#: data/countriesByContinents.php:64 data/countries.php:12
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#: data/countriesByContinents.php:65 data/countries.php:13
+msgid "Argentina"
+msgstr ""
+
+#: data/countriesByContinents.php:66 data/countries.php:15
+msgid "Aruba"
+msgstr ""
+
+#: data/countriesByContinents.php:67 data/countries.php:19
+msgid "Bahamas"
+msgstr ""
+
+#: data/countriesByContinents.php:68 data/countries.php:22
+msgid "Barbados"
+msgstr ""
+
+#: data/countriesByContinents.php:69 data/countries.php:25
+msgid "Belize"
+msgstr ""
+
+#: data/countriesByContinents.php:70 data/countries.php:27
+msgid "Bermuda"
+msgstr ""
+
+#: data/countriesByContinents.php:71 data/countries.php:29
+msgid "Bolivia"
+msgstr ""
+
+#: data/countriesByContinents.php:72 data/countries.php:33
+msgid "Brazil"
+msgstr ""
+
+#: data/countriesByContinents.php:73 data/countries.php:36
+msgid "British Virgin Islands"
+msgstr ""
+
+#: data/countriesByContinents.php:74 data/countries.php:43
+msgid "Canada"
+msgstr ""
+
+#: data/countriesByContinents.php:75 data/countries.php:46
+msgid "Cayman Islands"
+msgstr ""
+
+#: data/countriesByContinents.php:76 data/countries.php:49
+msgid "Chile"
+msgstr ""
+
+#: data/countriesByContinents.php:77 data/countries.php:53
+msgid "Colombia"
+msgstr ""
+
+#: data/countriesByContinents.php:78 data/countries.php:58
+msgid "Costa Rica"
+msgstr ""
+
+#: data/countriesByContinents.php:79 data/countries.php:60
+msgid "Cuba"
+msgstr ""
+
+#: data/countriesByContinents.php:80 data/countries.php:66
+msgid "Dominica"
+msgstr ""
+
+#: data/countriesByContinents.php:81 data/countries.php:67
+msgid "Dominican Republic"
+msgstr ""
+
+#: data/countriesByContinents.php:82 data/countries.php:69
+msgid "Ecuador"
+msgstr ""
+
+#: data/countriesByContinents.php:83 data/countries.php:71
+msgid "El Salvador"
+msgstr ""
+
+#: data/countriesByContinents.php:84 data/countries.php:76
+msgid "Falkland Islands"
+msgstr ""
+
+#: data/countriesByContinents.php:85 data/countries.php:81
+msgid "French Guiana"
+msgstr ""
+
+#: data/countriesByContinents.php:86 data/countries.php:92
+msgid "Greenland"
+msgstr ""
+
+#: data/countriesByContinents.php:87 data/countries.php:93
+msgid "Grenada"
+msgstr ""
+
+#: data/countriesByContinents.php:88 data/countries.php:94
+msgid "Guadeloupe"
+msgstr ""
+
+#: data/countriesByContinents.php:89 data/countries.php:96
+msgid "Guatemala"
+msgstr ""
+
+#: data/countriesByContinents.php:90 data/countries.php:100
+msgid "Guyana"
+msgstr ""
+
+#: data/countriesByContinents.php:91 data/countries.php:101
+msgid "Haiti"
+msgstr ""
+
+#: data/countriesByContinents.php:92 data/countries.php:103
+msgid "Honduras"
+msgstr ""
+
+#: data/countriesByContinents.php:93 data/countries.php:115
+msgid "Jamaica"
+msgstr ""
+
+#: data/countriesByContinents.php:94 data/countries.php:143
+msgid "Martinique"
+msgstr ""
+
+#: data/countriesByContinents.php:95 data/countries.php:148
+msgid "Mexico"
+msgstr ""
+
+#: data/countriesByContinents.php:96 data/countries.php:155
+msgid "Montserrat"
+msgstr ""
+
+#: data/countriesByContinents.php:97 data/countries.php:163
+msgid "Netherlands Antilles"
+msgstr ""
+
+#: data/countriesByContinents.php:98 data/countries.php:167
+msgid "Nicaragua"
+msgstr ""
+
+#: data/countriesByContinents.php:99 data/countries.php:181
+msgid "Panama"
+msgstr ""
+
+#: data/countriesByContinents.php:100 data/countries.php:184
+msgid "Paraguay"
+msgstr ""
+
+#: data/countriesByContinents.php:101 data/countries.php:186
+msgid "Peru"
+msgstr ""
+
+#: data/countriesByContinents.php:102 data/countries.php:191
+msgid "Puerto Rico"
+msgstr ""
+
+#: data/countriesByContinents.php:103 data/countries.php:197
+msgid "Saint Barthélemy"
+msgstr ""
+
+#: data/countriesByContinents.php:104 data/countries.php:199
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: data/countriesByContinents.php:105 data/countries.php:200
+msgid "Saint Lucia"
+msgstr ""
+
+#: data/countriesByContinents.php:106 data/countries.php:201
+msgid "Saint Martin"
+msgstr ""
+
+#: data/countriesByContinents.php:107 data/countries.php:202
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+#: data/countriesByContinents.php:108 data/countries.php:203
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#: data/countriesByContinents.php:109 data/countries.php:223
+msgid "Suriname"
+msgstr ""
+
+#: data/countriesByContinents.php:110 data/countries.php:238
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: data/countriesByContinents.php:111 data/countries.php:242
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+#: data/countriesByContinents.php:112 data/countries.php:247
+msgid "U.S. Virgin Islands"
+msgstr ""
+
+#: data/countriesByContinents.php:113 data/countries.php:253
+msgid "United States"
+msgstr ""
+
+#: data/countriesByContinents.php:114 data/countries.php:255
+msgid "Uruguay"
+msgstr ""
+
+#: data/countriesByContinents.php:115 data/countries.php:259
+msgid "Venezuela"
+msgstr ""
+
+#: data/countriesByContinents.php:118 data/countries.php:4
+msgid "Afghanistan"
+msgstr ""
+
+#: data/countriesByContinents.php:119 data/countries.php:14
+msgid "Armenia"
+msgstr ""
+
+#: data/countriesByContinents.php:120 data/countries.php:18
+msgid "Azerbaijan"
+msgstr ""
+
+#: data/countriesByContinents.php:121 data/countries.php:20
+msgid "Bahrain"
+msgstr ""
+
+#: data/countriesByContinents.php:122 data/countries.php:21
+msgid "Bangladesh"
+msgstr ""
+
+#: data/countriesByContinents.php:123 data/countries.php:28
+msgid "Bhutan"
+msgstr ""
+
+#: data/countriesByContinents.php:124 data/countries.php:37
+msgid "Brunei"
+msgstr ""
+
+#: data/countriesByContinents.php:125 data/countries.php:41
+msgid "Cambodia"
+msgstr ""
+
+#: data/countriesByContinents.php:126 data/countries.php:50
+msgid "China"
+msgstr ""
+
+#: data/countriesByContinents.php:128 data/countries.php:87
+msgid "Georgia"
+msgstr ""
+
+#: data/countriesByContinents.php:129 data/countries.php:104
+msgid "Hong Kong SAR China"
+msgstr ""
+
+#: data/countriesByContinents.php:130 data/countries.php:107
+msgid "India"
+msgstr ""
+
+#: data/countriesByContinents.php:131 data/countries.php:108
+msgid "Indonesia"
+msgstr ""
+
+#: data/countriesByContinents.php:132 data/countries.php:109
+msgid "Iran"
+msgstr ""
+
+#: data/countriesByContinents.php:133 data/countries.php:110
+msgid "Iraq"
+msgstr ""
+
+#: data/countriesByContinents.php:134 data/countries.php:113
+msgid "Israel"
+msgstr ""
+
+#: data/countriesByContinents.php:135 data/countries.php:116
+msgid "Japan"
+msgstr ""
+
+#: data/countriesByContinents.php:136 data/countries.php:119
+msgid "Jordan"
+msgstr ""
+
+#: data/countriesByContinents.php:137 data/countries.php:120
+msgid "Kazakhstan"
+msgstr ""
+
+#: data/countriesByContinents.php:138 data/countries.php:123
+msgid "Kuwait"
+msgstr ""
+
+#: data/countriesByContinents.php:139 data/countries.php:124
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: data/countriesByContinents.php:140 data/countries.php:125
+msgid "Laos"
+msgstr ""
+
+#: data/countriesByContinents.php:141 data/countries.php:127
+msgid "Lebanon"
+msgstr ""
+
+#: data/countriesByContinents.php:142 data/countries.php:134
+msgid "Macau SAR China"
+msgstr ""
+
+#: data/countriesByContinents.php:143 data/countries.php:138
+msgid "Malaysia"
+msgstr ""
+
+#: data/countriesByContinents.php:144 data/countries.php:139
+msgid "Maldives"
+msgstr ""
+
+#: data/countriesByContinents.php:145 data/countries.php:153
+msgid "Mongolia"
+msgstr ""
+
+#: data/countriesByContinents.php:146 data/countries.php:158
+msgid "Myanmar [Burma]"
+msgstr ""
+
+#: data/countriesByContinents.php:147 data/countries.php:161
+msgid "Nepal"
+msgstr ""
+
+#: data/countriesByContinents.php:148 data/countries.php:164
+msgid "Neutral Zone"
+msgstr ""
+
+#: data/countriesByContinents.php:149 data/countries.php:172
+msgid "North Korea"
+msgstr ""
+
+#: data/countriesByContinents.php:150 data/countries.php:176
+msgid "Oman"
+msgstr ""
+
+#: data/countriesByContinents.php:151 data/countries.php:178
+msgid "Pakistan"
+msgstr ""
+
+#: data/countriesByContinents.php:152 data/countries.php:180
+msgid "Palestinian Territories"
+msgstr ""
+
+#: data/countriesByContinents.php:153 data/countries.php:185
+msgid "People's Democratic Republic of Yemen"
+msgstr ""
+
+#: data/countriesByContinents.php:154 data/countries.php:187
+msgid "Philippines"
+msgstr ""
+
+#: data/countriesByContinents.php:155 data/countries.php:192
+msgid "Qatar"
+msgstr ""
+
+#: data/countriesByContinents.php:156 data/countries.php:206
+msgid "Saudi Arabia"
+msgstr ""
+
+#: data/countriesByContinents.php:157 data/countries.php:212
+msgid "Singapore"
+msgstr ""
+
+#: data/countriesByContinents.php:158 data/countries.php:219
+msgid "South Korea"
+msgstr ""
+
+#: data/countriesByContinents.php:159 data/countries.php:221
+msgid "Sri Lanka"
+msgstr ""
+
+#: data/countriesByContinents.php:160 data/countries.php:228
+msgid "Syria"
+msgstr ""
+
+#: data/countriesByContinents.php:161 data/countries.php:230
+msgid "Taiwan"
+msgstr ""
+
+#: data/countriesByContinents.php:162 data/countries.php:231
+msgid "Tajikistan"
+msgstr ""
+
+#: data/countriesByContinents.php:163 data/countries.php:233
+msgid "Thailand"
+msgstr ""
+
+#: data/countriesByContinents.php:164 data/countries.php:234
+msgid "Timor-Leste"
+msgstr ""
+
+#: data/countriesByContinents.php:165 data/countries.php:241
+msgid "Turkmenistan"
+msgstr ""
+
+#: data/countriesByContinents.php:166 data/countries.php:251
+msgid "United Arab Emirates"
+msgstr ""
+
+#: data/countriesByContinents.php:167 data/countries.php:256
+msgid "Uzbekistan"
+msgstr ""
+
+#: data/countriesByContinents.php:168 data/countries.php:260
+msgid "Vietnam"
+msgstr ""
+
+#: data/countriesByContinents.php:169 data/countries.php:264
+msgid "Yemen"
+msgstr ""
+
+#: data/countriesByContinents.php:172 data/countries.php:5
+msgid "Albania"
+msgstr ""
+
+#: data/countriesByContinents.php:173 data/countries.php:8
+msgid "Andorra"
+msgstr ""
+
+#: data/countriesByContinents.php:174 data/countries.php:17
+msgid "Austria"
+msgstr ""
+
+#: data/countriesByContinents.php:175 data/countries.php:23
+msgid "Belarus"
+msgstr ""
+
+#: data/countriesByContinents.php:176 data/countries.php:24
+msgid "Belgium"
+msgstr ""
+
+#: data/countriesByContinents.php:177 data/countries.php:30
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: data/countriesByContinents.php:178 data/countries.php:38
+msgid "Bulgaria"
+msgstr ""
+
+#: data/countriesByContinents.php:179 data/countries.php:59
+msgid "Croatia"
+msgstr ""
+
+#: data/countriesByContinents.php:180 data/countries.php:61
+msgid "Cyprus"
+msgstr ""
+
+#: data/countriesByContinents.php:181 data/countries.php:62
+msgid "Czech Republic"
+msgstr ""
+
+#: data/countriesByContinents.php:182 data/countries.php:64
+msgid "Denmark"
+msgstr ""
+
+#: data/countriesByContinents.php:183 data/countries.php:74
+msgid "Estonia"
+msgstr ""
+
+#: data/countriesByContinents.php:184 data/countries.php:77
+msgid "Faroe Islands"
+msgstr ""
+
+#: data/countriesByContinents.php:185 data/countries.php:79
+msgid "Finland"
+msgstr ""
+
+#: data/countriesByContinents.php:186 data/countries.php:80
+msgid "France"
+msgstr ""
+
+#: data/countriesByContinents.php:187 data/countries.php:88
+msgid "Germany"
+msgstr ""
+
+#: data/countriesByContinents.php:188 data/countries.php:90
+msgid "Gibraltar"
+msgstr ""
+
+#: data/countriesByContinents.php:189 data/countries.php:91
+msgid "Greece"
+msgstr ""
+
+#: data/countriesByContinents.php:190 data/countries.php:97
+msgid "Guernsey"
+msgstr ""
+
+#: data/countriesByContinents.php:191 data/countries.php:105
+msgid "Hungary"
+msgstr ""
+
+#: data/countriesByContinents.php:192 data/countries.php:106
+msgid "Iceland"
+msgstr ""
+
+#: data/countriesByContinents.php:193 data/countries.php:111
+msgid "Ireland"
+msgstr ""
+
+#: data/countriesByContinents.php:194 data/countries.php:112
+msgid "Isle of Man"
+msgstr ""
+
+#: data/countriesByContinents.php:195 data/countries.php:114
+msgid "Italy"
+msgstr ""
+
+#: data/countriesByContinents.php:196 data/countries.php:117
+msgid "Jersey"
+msgstr ""
+
+#: data/countriesByContinents.php:197 data/countries.php:126
+msgid "Latvia"
+msgstr ""
+
+#: data/countriesByContinents.php:198 data/countries.php:131
+msgid "Liechtenstein"
+msgstr ""
+
+#: data/countriesByContinents.php:199 data/countries.php:132
+msgid "Lithuania"
+msgstr ""
+
+#: data/countriesByContinents.php:200 data/countries.php:133
+msgid "Luxembourg"
+msgstr ""
+
+#: data/countriesByContinents.php:201 data/countries.php:135
+msgid "Macedonia"
+msgstr ""
+
+#: data/countriesByContinents.php:202 data/countries.php:141
+msgid "Malta"
+msgstr ""
+
+#: data/countriesByContinents.php:203 data/countries.php:147
+msgid "Metropolitan France"
+msgstr ""
+
+#: data/countriesByContinents.php:204 data/countries.php:151
+msgid "Moldova"
+msgstr ""
+
+#: data/countriesByContinents.php:205 data/countries.php:152
+msgid "Monaco"
+msgstr ""
+
+#: data/countriesByContinents.php:206 data/countries.php:154
+msgid "Montenegro"
+msgstr ""
+
+#: data/countriesByContinents.php:207 data/countries.php:162
+msgid "Netherlands"
+msgstr ""
+
+#: data/countriesByContinents.php:208 data/countries.php:175
+msgid "Norway"
+msgstr ""
+
+#: data/countriesByContinents.php:209 data/countries.php:189
+msgid "Poland"
+msgstr ""
+
+#: data/countriesByContinents.php:210 data/countries.php:190
+msgid "Portugal"
+msgstr ""
+
+#: data/countriesByContinents.php:211 data/countries.php:193
+msgid "Romania"
+msgstr ""
+
+#: data/countriesByContinents.php:212 data/countries.php:194
+msgid "Russia"
+msgstr ""
+
+#: data/countriesByContinents.php:213 data/countries.php:205
+msgid "San Marino"
+msgstr ""
+
+#: data/countriesByContinents.php:214 data/countries.php:208
+msgid "Serbia"
+msgstr ""
+
+#: data/countriesByContinents.php:215 data/countries.php:209
+msgid "Serbia and Montenegro"
+msgstr ""
+
+#: data/countriesByContinents.php:216 data/countries.php:213
+msgid "Slovakia"
+msgstr ""
+
+#: data/countriesByContinents.php:217 data/countries.php:214
+msgid "Slovenia"
+msgstr ""
+
+#: data/countriesByContinents.php:218 data/countries.php:220
+msgid "Spain"
+msgstr ""
+
+#: data/countriesByContinents.php:219 data/countries.php:224
+msgid "Svalbard and Jan Mayen"
+msgstr ""
+
+#: data/countriesByContinents.php:220 data/countries.php:226
+msgid "Sweden"
+msgstr ""
+
+#: data/countriesByContinents.php:221 data/countries.php:227
+msgid "Switzerland"
+msgstr ""
+
+#: data/countriesByContinents.php:222 data/countries.php:240
+msgid "Turkey"
+msgstr ""
+
+#: data/countriesByContinents.php:223 data/countries.php:249
+msgid "Ukraine"
+msgstr ""
+
+#: data/countriesByContinents.php:224 data/countries.php:250
+msgid "Union of Soviet Socialist Republics"
+msgstr ""
+
+#: data/countriesByContinents.php:225 data/countries.php:252
+msgid "United Kingdom"
+msgstr ""
+
+#: data/countriesByContinents.php:226 data/countries.php:258
+msgid "Vatican City"
+msgstr ""
+
+#: data/countriesByContinents.php:227 data/countries.php:267
+msgid "Åland Islands"
+msgstr ""
+
+#: data/countriesByContinents.php:230 data/countries.php:7
+msgid "American Samoa"
+msgstr ""
+
+#: data/countriesByContinents.php:231 data/countries.php:11
+msgid "Antarctica"
+msgstr ""
+
+#: data/countriesByContinents.php:232 data/countries.php:16
+msgid "Australia"
+msgstr ""
+
+#: data/countriesByContinents.php:233 data/countries.php:32
+msgid "Bouvet Island"
+msgstr ""
+
+#: data/countriesByContinents.php:234 data/countries.php:35
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#: data/countriesByContinents.php:235 data/countries.php:51
+msgid "Christmas Island"
+msgstr ""
+
+#: data/countriesByContinents.php:236 data/countries.php:52
+msgid "Cocos [Keeling] Islands"
+msgstr ""
+
+#: data/countriesByContinents.php:237 data/countries.php:57
+msgid "Cook Islands"
+msgstr ""
+
+#: data/countriesByContinents.php:238 data/countries.php:78
+msgid "Fiji"
+msgstr ""
+
+#: data/countriesByContinents.php:239 data/countries.php:82
+msgid "French Polynesia"
+msgstr ""
+
+#: data/countriesByContinents.php:240 data/countries.php:83
+msgid "French Southern Territories"
+msgstr ""
+
+#: data/countriesByContinents.php:241 data/countries.php:95
+msgid "Guam"
+msgstr ""
+
+#: data/countriesByContinents.php:242 data/countries.php:102
+msgid "Heard Island and McDonald Islands"
+msgstr ""
+
+#: data/countriesByContinents.php:243 data/countries.php:122
+msgid "Kiribati"
+msgstr ""
+
+#: data/countriesByContinents.php:244 data/countries.php:142
+msgid "Marshall Islands"
+msgstr ""
+
+#: data/countriesByContinents.php:245 data/countries.php:149
+msgid "Micronesia"
+msgstr ""
+
+#: data/countriesByContinents.php:246 data/countries.php:160
+msgid "Nauru"
+msgstr ""
+
+#: data/countriesByContinents.php:247 data/countries.php:165
+msgid "New Caledonia"
+msgstr ""
+
+#: data/countriesByContinents.php:248 data/countries.php:166
+msgid "New Zealand"
+msgstr ""
+
+#: data/countriesByContinents.php:249 data/countries.php:170
+msgid "Niue"
+msgstr ""
+
+#: data/countriesByContinents.php:250 data/countries.php:171
+msgid "Norfolk Island"
+msgstr ""
+
+#: data/countriesByContinents.php:251 data/countries.php:174
+msgid "Northern Mariana Islands"
+msgstr ""
+
+#: data/countriesByContinents.php:252 data/countries.php:179
+msgid "Palau"
+msgstr ""
+
+#: data/countriesByContinents.php:253 data/countries.php:183
+msgid "Papua New Guinea"
+msgstr ""
+
+#: data/countriesByContinents.php:254 data/countries.php:188
+msgid "Pitcairn Islands"
+msgstr ""
+
+#: data/countriesByContinents.php:255 data/countries.php:204
+msgid "Samoa"
+msgstr ""
+
+#: data/countriesByContinents.php:256 data/countries.php:215
+msgid "Solomon Islands"
+msgstr ""
+
+#: data/countriesByContinents.php:257 data/countries.php:218
+msgid "South Georgia and the South Sandwich Islands"
+msgstr ""
+
+#: data/countriesByContinents.php:258 data/countries.php:236
+msgid "Tokelau"
+msgstr ""
+
+#: data/countriesByContinents.php:259 data/countries.php:237
+msgid "Tonga"
+msgstr ""
+
+#: data/countriesByContinents.php:260 data/countries.php:243
+msgid "Tuvalu"
+msgstr ""
+
+#: data/countriesByContinents.php:261 data/countries.php:244
+msgid "U.S. Minor Outlying Islands"
+msgstr ""
+
+#: data/countriesByContinents.php:262 data/countries.php:257
+msgid "Vanuatu"
+msgstr ""
+
+#: data/countriesByContinents.php:263 data/countries.php:262
+msgid "Wallis and Futuna"
+msgstr ""
+
+#: data/countries.php:34
+msgid "British Antarctic Territory"
+msgstr ""
+
+#: data/countries.php:44
+msgid "Canton and Enderbury Islands"
+msgstr ""
+
+#: data/countries.php:68
+msgid "Dronning Maud Land"
+msgstr ""
+
+#: data/countries.php:84
+msgid "French Southern and Antarctic Territories"
+msgstr ""
+
+#: data/countries.php:118
+msgid "Johnston Island"
+msgstr ""
+
+#: data/countries.php:150
+msgid "Midway Islands"
+msgstr ""
+
+#: data/countries.php:173
+msgid "North Vietnam"
+msgstr ""
+
+#: data/countries.php:177
+msgid "Pacific Islands Trust Territory"
+msgstr ""
+
+#: data/countries.php:182
+msgid "Panama Canal Zone"
+msgstr ""
+
+#: data/countries.php:246
+msgid "U.S. Miscellaneous Pacific Islands"
+msgstr ""
+
+#: data/countries.php:254
+msgid "Unknown or Invalid Region"
+msgstr ""
+
+#: data/countries.php:261
+msgid "Wake Island"
+msgstr ""
+
+#: public/class-wordpress-country-selector-public.php:408
+msgid "Select Region"
+msgstr ""
+
+#: public/class-wordpress-country-selector-public.php:522
+msgid "Select Country"
+msgstr ""
+
+#: public/class-wordpress-country-selector-public.php:982
+#, php-format
+msgid "Seems like you are coming from %s!"
+msgstr ""
+
+#. Name of the plugin
+msgid "WordPress Country Selector"
+msgstr ""
+
+#. Description of the plugin
+msgid "Add a Country Selector Popup or Page to your Wordpress Site!"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://welaunch.io/plugins/wordpress-country-selector/"
+msgstr ""
+
+#. Author of the plugin
+msgid "weLaunch"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://welaunch.io"
+msgstr ""

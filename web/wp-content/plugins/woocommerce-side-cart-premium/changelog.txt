@@ -1,0 +1,10 @@
+== 4.0.1 ==
+* Fix - Divi conflict
+
+== 4.0 ==
+
+*New* improved design
+*New* card layout
+*New* suggested product as separate slider
+*New* added styling settings
+*New* show total in the checkout button

@@ -1,0 +1,48 @@
+{
+    "name": "elula/elex-product-price-custom-text-before-after-text-and-discount-for-woocommerce",
+    "description": "The plugin simplifies the task to add a text before and after the product price both globally and individually.It also allows you to apply a quick discount for your products.",
+    "type": "wordpress-plugin",
+    "autoload": {
+        "psr-4": {
+              "ELEX\\PPCT\\": "includes/"
+          }
+      },
+    "require": {
+    },
+    "require-dev": {
+        "woocommerce/woocommerce-sniffs": "^0.1.0",
+        "woocommerce/woocommerce-git-hooks": "^1.0"
+    },
+    "scripts": {
+        "pre-update-cmd": [
+          "WooCommerce\\GitHooks\\Hooks::preHooks"
+        ],
+        "pre-install-cmd": [
+          "WooCommerce\\GitHooks\\Hooks::preHooks"
+        ],
+        "post-install-cmd": [
+          "WooCommerce\\GitHooks\\Hooks::postHooks"
+        ],
+        "post-update-cmd": [
+          "WooCommerce\\GitHooks\\Hooks::postHooks"
+        ],
+        "phpcs": [
+          "phpcs --warning-severity=0 -s --ignore-annotations --extensions=php,html ."
+        ],
+        "phpcbf": [
+          "phpcbf --warning-severity=0 -s --ignore-annotations --extensions=php,html ."
+         ]
+    },
+    "extra": {
+        "scripts-description": {
+          "test": "Run unit tests",
+          "phpcs": "Analyze code against the WordPress coding standards with PHP_CodeSniffer",
+          "phpcbf": "Fix coding standards warnings/errors automatically with PHP Code Beautifier"
+        }
+  },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}

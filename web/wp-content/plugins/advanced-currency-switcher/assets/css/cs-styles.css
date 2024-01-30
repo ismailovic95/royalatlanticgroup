@@ -1,0 +1,25 @@
+/*hide the span tag which display main price value*/
+.cs-convertor-wrap-data-2 {
+    display: none;
+}
+/* set margin for notice */
+.cswp-notice{
+	margin-left: 0px !important;
+}
+
+/* Table CSS */
+td.cswp_note_rate {
+    padding: 0px 0px;
+}
+#cs-api-display{
+	display: none;
+}
+.cswp_api_field{
+	display: none;
+}
+.cswp_manual_field{
+	display: block;
+}
+#cs-manual-display{
+display: block;
+}

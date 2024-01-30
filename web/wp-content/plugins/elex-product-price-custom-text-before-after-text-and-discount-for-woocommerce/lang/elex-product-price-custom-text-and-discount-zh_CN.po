@@ -1,0 +1,190 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ELEX WooCommerce Product Price Custom Text (Before & "
+"After Text) and Discount\n"
+"POT-Creation-Date: 2021-12-03 13:37+0530\n"
+"PO-Revision-Date: 2021-12-03 13:37+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: elex-woocommerce-product-price-custom-text-discount.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: elex-woocommerce-product-price-custom-text-discount.php:39
+msgid "Settings"
+msgstr "设置"
+
+#: elex-woocommerce-product-price-custom-text-discount.php:40
+msgid "ELEX Premium Plugins"
+msgstr "ELEX 高级插件"
+
+#: includes/elex-ppct-discount-woocommerce-setting.php:19
+#: includes/elex-ppct-discount-woocommerce-setting.php:24
+#: includes/elex-ppct-discount-woocommerce-setting.php:98
+#: includes/elex-ppct-woocmmerce-variation-settings.php:25
+msgid "Custom Text & Discount"
+msgstr "自定义文本 + 折扣"
+
+#: includes/elex-ppct-discount-woocommerce-setting.php:25
+msgid "Go Premium!"
+msgstr "去高级!"
+
+#: includes/elex-ppct-discount-woocommerce-setting.php:92
+msgid "Product Price Custom Text & Discount:"
+msgstr "产品价格自定义文本和折扣："
+
+#: includes/elex-ppct-discount-woocommerce-setting.php:100
+#: includes/elex-ppct-woocmmerce-variation-settings.php:26
+msgid "Enable"
+msgstr "启用"
+
+#: includes/elex-ppct-discount-woocommerce-setting.php:105
+#: includes/elex-ppct-woocmmerce-variation-settings.php:148
+msgid "Add Prefix"
+msgstr "添加前缀"
+
+#: includes/elex-ppct-discount-woocommerce-setting.php:107
+msgid "Add a prefix text with your product price"
+msgstr "添加产品价格的前缀文本"
+
+#: includes/elex-ppct-discount-woocommerce-setting.php:113
+#: includes/elex-ppct-woocmmerce-variation-settings.php:158
+msgid "Add Suffix"
+msgstr "添加后缀"
+
+#: includes/elex-ppct-discount-woocommerce-setting.php:115
+#: includes/elex-ppct-woocmmerce-variation-settings.php:45
+msgid "Add a suffix text with your product price."
+msgstr "添加产品价格的后缀文本。"
+
+#: includes/elex-ppct-discount-woocommerce-setting.php:121
+#: includes/elex-ppct-discount-woocommerce-setting.php:129
+#: includes/elex-ppct-woocmmerce-variation-settings.php:50
+#: includes/elex-ppct-woocmmerce-variation-settings.php:59
+#: includes/elex-ppct-woocmmerce-variation-settings.php:168
+#: includes/elex-ppct-woocmmerce-variation-settings.php:182
+msgid "Discount"
+msgstr "折扣"
+
+#: includes/elex-ppct-discount-woocommerce-setting.php:123
+msgid ""
+"Specify the discount amount you want to apply. This discount will be applied "
+"to all products."
+msgstr "指定要申请的折扣金额。此折扣将适用于所有产品。"
+
+#: includes/elex-ppct-discount-woocommerce-setting.php:131
+msgid ""
+"Specify the discount percentage you want to apply. This discount will be "
+"applied to all products."
+msgstr "指定要申请的折扣百分比。此折扣将适用于所有产品。"
+
+#: includes/elex-ppct-woocmmerce-variation-settings.php:10
+msgid "Price Text & Discount "
+msgstr "价格文本 = 折扣"
+
+#: includes/elex-ppct-woocmmerce-variation-settings.php:35
+msgid "Prefix"
+msgstr "前缀"
+
+#: includes/elex-ppct-woocmmerce-variation-settings.php:37
+msgid "Add a prefix text with your product price."
+msgstr "添加产品价格的前缀文本。"
+
+#: includes/elex-ppct-woocmmerce-variation-settings.php:43
+msgid "Suffix"
+msgstr "后缀"
+
+#: includes/elex-ppct-woocmmerce-variation-settings.php:53
+msgid ""
+"Specify the discount amount you want to apply. This discount will be applied "
+"to this particular product."
+msgstr "指定要申请的折扣金额。此折扣将适用于此特定产品。"
+
+#: includes/elex-ppct-woocmmerce-variation-settings.php:62
+msgid ""
+"Specify the discount percentage you want to apply. This discount will be "
+"applied to this particular product."
+msgstr "指定要申请的折扣百分比。此折扣将适用于此特定产品。"
+
+#: includes/elex-ppct-woocmmerce-variation-settings.php:133
+msgid "Hide prefix for this variation."
+msgstr "隐藏此变体的前缀。"
+
+#: includes/elex-ppct-woocmmerce-variation-settings.php:134
+msgid "Hide Prefix"
+msgstr "隐藏前缀"
+
+#: includes/elex-ppct-woocmmerce-variation-settings.php:137
+msgid "Hide suffix for this variation."
+msgstr "隐藏后缀以进行此变体。"
+
+#: includes/elex-ppct-woocmmerce-variation-settings.php:138
+msgid "Hide Suffix"
+msgstr "隐藏后缀"
+
+#: includes/elex-ppct-woocmmerce-variation-settings.php:150
+msgid "Specify the prefix for this variation."
+msgstr "指定此变体的前缀。"
+
+#: includes/elex-ppct-woocmmerce-variation-settings.php:160
+msgid "Specify the suffix for this variation."
+msgstr "指定此变体的后缀。"
+
+#: includes/elex-ppct-woocmmerce-variation-settings.php:174
+msgid ""
+"Specify the discount amount you want to apply. This discount will be applied "
+"to this particular product variation."
+msgstr "指定要申请的折扣金额。此折扣将适用于此特定产品变体。"
+
+#: includes/elex-ppct-woocmmerce-variation-settings.php:188
+msgid ""
+"Specify the discount percentage you want to apply. This discount will be "
+"applied to this particular product variation."
+msgstr "指定要申请的折扣百分比。此折扣将适用于此特定产品变体。"
+
+#. Plugin Name of the plugin/theme
+msgid ""
+"ELEX WooCommerce Product Price Custom Text (Before & After Text) and Discount"
+msgstr "ELEX 伍商业产品价格自定义文本（文本之前和之后）和折扣"
+
+#. Plugin URI of the plugin/theme
+msgid "https://elextensions.com/plugin"
+msgstr "https://elextensions.com/plugin"
+
+#. Description of the plugin/theme
+msgid ""
+"The plugin simplifies the task to add a text before and after the product "
+"price both globally and individually.It also allows you to apply a quick "
+"discount for your products."
+msgstr ""
+"插件简化了在全球和单独添加产品价格前后添加文本的任务。它还允许您为您的产品申"
+"请快速折扣。"
+
+#. Author of the plugin/theme
+msgid "ELEXtensions"
+msgstr "埃莱克斯滕斯"
+
+#. Author URI of the plugin/theme
+msgid "https://elextensions.com/"
+msgstr "https://elextensions.com/"
+
+#~ msgid "<li><strong><font color=\"red\">Go Premium!</font></strong></li>"
+#~ msgstr "<li><strong><font color=\"red\">去高级！</font></strong></li>"
+
+#~ msgid "Product Price Custom Text & Discount"
+#~ msgstr "产品价格自定义文本 + 折扣"
+
+#~ msgid "ELEX Plugins You May Be Interested In"
+#~ msgstr "您可能感兴趣的 ELEX 插件"

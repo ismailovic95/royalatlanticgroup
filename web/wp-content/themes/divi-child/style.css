@@ -1,0 +1,106 @@
+/*
+ Theme Name: Divi Child
+ Theme URI: https://www.elegantthemes.com/gallery/divi/
+ Description: Divi Child Theme
+ Author: Elegant Themes
+ Author URI: https://www.elegantthemes.com
+ Template: Divi
+ Version: 1.0.0
+*/
+ 
+/* =Theme customization starts here
+------------------------------------------------------- */
+body .product-price, body .product-subtotal, body .woocs_special_price_code, body .amount, body .xoo-wsc-qty-price, body .variation-Quantity, body .woocs_price_info_list{
+    font-family: Open Sans,Arial,sans-serif;
+}
+.et_pb_scroll_top.et-pb-icon{
+    background-color: #008081 !important;
+}
+body #page-container .et_pb_section .et_pb_contact_form_0.et_pb_contact_form_container.et_pb_module .et_pb_button, body #page-container .et_pb_section .et_pb_contact_form_0.et_pb_contact_form_container.et_pb_module .et_pb_button:hover{    border-color: transparent !important;
+    border-color: transparent !important;
+}
+#top-menu-nav>ul>li>a:hover{
+    color:#008081;
+}
+.img-pay-ft {
+	height: 25px !important;
+	margin-left: 10px !important;
+	color: #9d8b66 !important;
+}
+
+
+form.pmpro_form .pmpro_checkout-fields {
+	border: 2px solid #ccc;
+	border-radius: 10px;
+	padding: 20px;
+	box-shadow: 0px 4px 15px #ccc;
+	position: relative;
+	width: 100%;
+}
+
+form.pmpro_form .pmpro_checkout-fields div {
+	display: inline-block;
+	width: 48%;
+}
+
+form.pmpro_form .pmpro_checkout-fields div input[type="text"] {
+	width: 100%;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+form.pmpro_form .pmpro_checkout-fields div input[type="email"] {
+	width: 100%;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+form.pmpro_form .pmpro_checkout-fields div select {
+	width: 100%;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.pmpro_checkout-field.pmpro_payment-expiration select {
+	width: 40% !important;
+	max-width: 150px;
+}
+
+form.pmpro_form .pmpro_asterisk abbr {
+	border: none;
+	text-decoration: none;
+	color: #19bfbf;
+	font-weight: bold;
+}
+
+.pmpro_btn.pmpro_btn-submit-checkout {
+	width: auto;
+	background: #008081 !important;
+	padding: 10px;
+	border: none;
+    color: #ffff;
+}
+
+#pmpro_submit_span {
+	text-align: center;
+	width: 100% !important;
+	position: relative;
+	display: block;
+}
+
+#pmpro_levels_table {
+	border-radius: 10px;
+	padding: 20px;
+	box-shadow: 0px 4px 15px #ccc;
+	position: relative;
+	width: 100%;
+}
+
+#pmpro_levels_table .pmpro_btn {
+	display: block;
+	background: #008081 !important;
+    color: #ffff;
+}
+#commentform #respond input#submit{
+    color: #ffff;
+}

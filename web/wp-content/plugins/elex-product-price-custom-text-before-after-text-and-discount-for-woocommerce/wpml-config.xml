@@ -1,0 +1,10 @@
+<wpml-config>
+    <admin-texts>
+        <key name="elex_ppct_check_field" />
+        <key name="elex_ppct_categories" />
+        <key name="elex_ppct_discount_amount" />
+		<key name="elex_ppct_discount_percent" />
+		<key name="elex_ppct_prefix_field" />
+		<key name="elex_ppct_suffix_field" />
+    </admin-texts>
+</wpml-config>
