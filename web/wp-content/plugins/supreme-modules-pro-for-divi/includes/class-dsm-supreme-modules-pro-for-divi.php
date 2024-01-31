@@ -59,6 +59,7 @@ class Dsm_Supreme_Modules_Pro_For_Divi {
 	 * @var      string    $version    The current version of the plugin.
 	 */
 	protected $version;
+	protected $settings_api;
 
 	/**
 	 * Define the core functionality of the plugin.
