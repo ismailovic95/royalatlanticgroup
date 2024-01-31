@@ -104,3 +104,75 @@ form.pmpro_form .pmpro_asterisk abbr {
 #commentform #respond input#submit{
     color: #ffff;
 }
+
+
+/*style */
+.et_pb_newsletter_form .et_pb_newsletter_fields{
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.et_pb_newsletter_form .et_pb_newsletter_button_wrap{
+	max-width: 180px;
+}
+
+.et_pb_newsletter_description{
+	display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.et_pb_menu--without-logo .et_pb_menu__menu>nav>ul>li{
+	width: 50%;
+}
+
+
+
+.et_pb_menu--without-logo .et_pb_menu__menu>nav>ul>li{
+	width: 50%;margin-bottom:25px
+}
+
+#top-menu a{
+	color: #141D47;
+	font-size: 18px;
+}
+
+#top-menu .login  a{
+	background: url(icon-login.svg) no-repeat;
+    width: 45px;
+    height: 45px;
+    background-size: cover;
+    text-indent: -9999px;
+    display: block;
+	position: relative;
+    top: -15px;
+}
+
+.pum-theme-575 .pum-container, .pum-theme-lightbox .pum-container{
+	padding: 30px;
+    border-radius: 0;
+    border: 0;
+    box-shadow: 0px 0px 0px 0px rgba( 0, 0, 0, 0 );
+    background-color: #f7f7f7;
+}
+
+.pum-theme-575 .pum-content + .pum-close, .pum-theme-lightbox .pum-content + .pum-close {
+    position: absolute;
+    height: 26px;
+    width: 26px;
+    left: auto;
+    right: -25px;
+    bottom: auto;
+    top: -25px;
+    padding: 0px;
+    color: #ffffff;
+    font-family: Arial;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 16px;
+    border: 2px solid #ffffff;
+    border-radius: 26px;
+    box-shadow: 0px;
+    box-shadow: 0px 0px 15px 1px rgba( 2, 2, 2, 0.75 );
+    background-color: rgba( 0, 0, 0, 1.00 );
+}
