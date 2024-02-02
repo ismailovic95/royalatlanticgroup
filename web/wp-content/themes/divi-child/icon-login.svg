@@ -1,0 +1,19 @@
+<svg id="Composant_3_1" data-name="Composant 3 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45" height="45" viewBox="0 0 45 45">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_20" data-name="Rectangle 20" width="17.677" height="19.032" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Rectangle_23" data-name="Rectangle 23" fill="#00726f" stroke="#00726f" stroke-width="1">
+    <rect width="45" height="45" rx="22.5" stroke="none"/>
+    <rect x="0.5" y="0.5" width="44" height="44" rx="22" fill="none"/>
+  </g>
+  <g id="Groupe_27" data-name="Groupe 27" transform="translate(-1177.609 -28)">
+    <g id="Groupe_20" data-name="Groupe 20" transform="translate(1191.609 41)">
+      <g id="Groupe_19" data-name="Groupe 19" clip-path="url(#clip-path)">
+        <path id="Tracé_46" data-name="Tracé 46" d="M8.827,156.5H2.181A2.059,2.059,0,0,1,0,154.324a5.384,5.384,0,0,1,.432-2.5,4.592,4.592,0,0,1,4.273-2.779c2.759-.045,5.52-.023,8.28-.008a4.738,4.738,0,0,1,4.688,4.684,5.755,5.755,0,0,1-.064,1.224A1.993,1.993,0,0,1,15.6,156.5q-3.387.005-6.773,0m.022-1.359h6.689a.694.694,0,0,0,.78-.786c0-.205,0-.41,0-.616a3.389,3.389,0,0,0-3.364-3.353q-4.109-.013-8.218,0a3.391,3.391,0,0,0-3.212,2.366,4.943,4.943,0,0,0-.159,1.575c0,.565.25.814.817.814H8.849" transform="translate(0 -137.473)" fill="#fff"/>
+        <path id="Tracé_47" data-name="Tracé 47" d="M48.34,5.087a5.1,5.1,0,1,1,5.077,5.108A5.1,5.1,0,0,1,48.34,5.087m8.836.021a3.738,3.738,0,1,0-3.754,3.728,3.741,3.741,0,0,0,3.754-3.728" transform="translate(-44.596 0)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
