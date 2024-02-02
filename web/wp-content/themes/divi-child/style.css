@@ -333,3 +333,48 @@ body #page-container#page-container .et_pb_section .et_pb_contact_form_0.et_pb_c
 	border-radius: 20px;
 	padding: 0.3em 2em !important;
 }
+
+
+.et-db #et-boc .et-l .et_pb_row_1.et_pb_row, .et-db .pum .et-l .et_pb_row_1.et_pb_row{
+	display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+
+.et-db #et-boc .et-l .et_pb_gutters3.et_pb_row .et_pb_column_1_2, .et_pb_gutters3.et-db #et-boc .et-l .et_pb_column_1_2{
+	width: 50% !important;
+    margin: 0 auto !important;
+}
+.et-db #et-boc .et-l .et_pb_gutters3.et_pb_row .et_pb_column_1_4, .et_pb_gutters3.et-db #et-boc .et-l .et_pb_column_1_4{
+	min-width: calc(50% - 25px) !important;
+    margin: 0 !important;
+    width: calc(50% - 25px) !important;
+}
+.et-db #et-boc .et-l .et_pb_row:after, .et-db #et-boc .et-l .et_pb_row_inner:after{
+	display: none;
+}
+
+.et-db #et-boc .et-l .et_pb_gutters3.et_pb_row .et_pb_column_1_4 .et_pb_module, .et_pb_gutters3.et-db #et-boc .et-l .et_pb_column_1_4 .et_pb_module{
+	margin-bottom: 5.174%;
+}
+
+
+@media only screen and (max-width: 600px) {
+	.et-db #et-boc .et-l .et_pb_row_1.et_pb_row, .et-db .pum .et-l .et_pb_row_1.et_pb_row{
+		gap: 20px;
+	}
+	.et-db #et-boc .et-l .et_pb_gutters3.et_pb_row .et_pb_column_1_2, .et_pb_gutters3.et-db #et-boc .et-l .et_pb_column_1_2{
+		width: 100%;	
+	}
+	.et-db #et-boc .et-l .et_pb_gutters3.et_pb_row .et_pb_column_1_4, .et_pb_gutters3.et-db #et-boc .et-l .et_pb_column_1_4{
+		min-width: 100%;
+		width: 100%;
+	}
+
+	.et-db #et-boc .et-l .et_pb_wc_related_products ul.products.columns-1 li.product, .et-db #et-boc .et-l .et_pb_wc_related_products ul.products.columns-2 li.product, .et-db #et-boc .et-l .et_pb_wc_related_products ul.products.columns-3 li.product, .et-db #et-boc .et-l .et_pb_wc_related_products ul.products.columns-4 li.product, .et-db #et-boc .et-l .et_pb_wc_related_products ul.products.columns-5 li.product, .et-db #et-boc .et-l .et_pb_wc_related_products ul.products.columns-6 li.product, .et-db #et-boc .et-l .et_pb_wc_upsells ul.products.columns-1 li.product, .et-db #et-boc .et-l .et_pb_wc_upsells ul.products.columns-2 li.product, .et-db #et-boc .et-l .et_pb_wc_upsells ul.products.columns-3 li.product, .et-db #et-boc .et-l .et_pb_wc_upsells ul.products.columns-4 li.product, .et-db #et-boc .et-l .et_pb_wc_upsells ul.products.columns-5 li.product, .et-db #et-boc .et-l .et_pb_wc_upsells ul.products.columns-6 li.product{
+		width: 100% !important;
+		max-width: 300px !important;
+	}
+}
