@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit97559eb2b9d8b6f1529d44abd2604f99
+class ComposerStaticInit989b48085bd383c997210d29839303de
 {
     public static $files = array (
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
@@ -28,6 +28,7 @@ class ComposerStaticInit97559eb2b9d8b6f1529d44abd2604f99
             'WooCommerce\\PayPalCommerce\\SavedPaymentChecker\\' => 47,
             'WooCommerce\\PayPalCommerce\\SavePaymentMethods\\' => 46,
             'WooCommerce\\PayPalCommerce\\PayPalSubscriptions\\' => 47,
+            'WooCommerce\\PayPalCommerce\\PayLaterBlock\\' => 41,
             'WooCommerce\\PayPalCommerce\\OrderTracking\\' => 41,
             'WooCommerce\\PayPalCommerce\\Onboarding\\' => 38,
             'WooCommerce\\PayPalCommerce\\Googlepay\\' => 37,
@@ -117,6 +118,10 @@ class ComposerStaticInit97559eb2b9d8b6f1529d44abd2604f99
         'WooCommerce\\PayPalCommerce\\PayPalSubscriptions\\' => 
         array (
             0 => __DIR__ . '/../..' . '/modules/ppcp-paypal-subscriptions/src',
+        ),
+        'WooCommerce\\PayPalCommerce\\PayLaterBlock\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/modules/ppcp-paylater-block/src',
         ),
         'WooCommerce\\PayPalCommerce\\OrderTracking\\' => 
         array (
@@ -220,9 +225,9 @@ class ComposerStaticInit97559eb2b9d8b6f1529d44abd2604f99
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit97559eb2b9d8b6f1529d44abd2604f99::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit97559eb2b9d8b6f1529d44abd2604f99::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit97559eb2b9d8b6f1529d44abd2604f99::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit989b48085bd383c997210d29839303de::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit989b48085bd383c997210d29839303de::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit989b48085bd383c997210d29839303de::$classMap;
 
         }, null, ClassLoader::class);
     }

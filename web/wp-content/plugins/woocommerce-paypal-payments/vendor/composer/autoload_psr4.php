@@ -19,6 +19,7 @@ return array(
     'WooCommerce\\PayPalCommerce\\SavedPaymentChecker\\' => array($baseDir . '/modules/ppcp-saved-payment-checker/src'),
     'WooCommerce\\PayPalCommerce\\SavePaymentMethods\\' => array($baseDir . '/modules/ppcp-save-payment-methods/src'),
     'WooCommerce\\PayPalCommerce\\PayPalSubscriptions\\' => array($baseDir . '/modules/ppcp-paypal-subscriptions/src'),
+    'WooCommerce\\PayPalCommerce\\PayLaterBlock\\' => array($baseDir . '/modules/ppcp-paylater-block/src'),
     'WooCommerce\\PayPalCommerce\\OrderTracking\\' => array($baseDir . '/modules/ppcp-order-tracking/src'),
     'WooCommerce\\PayPalCommerce\\Onboarding\\' => array($baseDir . '/modules/ppcp-onboarding/src'),
     'WooCommerce\\PayPalCommerce\\Googlepay\\' => array($baseDir . '/modules/ppcp-googlepay/src'),
