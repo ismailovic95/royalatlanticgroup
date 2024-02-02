@@ -12,6 +12,7 @@
 ------------------------------------------------------- */
 body .product-price, body .product-subtotal, body .woocs_special_price_code, body .amount, body .xoo-wsc-qty-price, body .variation-Quantity, body .woocs_price_info_list{
     font-family: Open Sans,Arial,sans-serif;
+	
 }
 .et_pb_scroll_top.et-pb-icon{
     background-color: #008081 !important;
@@ -195,12 +196,6 @@ form.pmpro_form .pmpro_asterisk abbr {
 }
 
 
-body{
-
-}
-.woocommerce.columns-4 {
-	
-}
 
 .woocommerce ul.products li.product a{
 	text-decoration: none;
@@ -276,7 +271,7 @@ h1, h2, h3, h4, h5, h6{
 
 
 .et_pb_text_0 h2{
-	background: url(icon-title.svg) no-repeat center;
+	background: url(icon-title.svg) no-repeat left;
 	padding: 50px 0;
 }
 
@@ -289,4 +284,52 @@ h1, h2, h3, h4, h5, h6{
 .title-icon.left {
 	background: url(icon-title.svg) no-repeat left;
 	padding: 50px 0;
+}
+
+.et_pb_contact_form_0.et_pb_contact_form_container .input, .et_pb_contact_form_0.et_pb_contact_form_container .input[type="checkbox"]+label i, .et_pb_contact_form_0.et_pb_contact_form_container .input[type="radio"]+label i{
+    border-width: 1px;
+	border-color: #00726F !important;
+	border-radius: 20px;
+}
+
+body{
+	color: #141D47 !important;
+}
+
+body #page-container#page-container  .et_pb_section .et_pb_button_0, body .pum-container .et_pb_section .et_pb_button_0{
+    background-color: #008081 !important;
+}
+
+body #page-container#page-container .et_pb_section .et_pb_button_0:hover, body .pum-container .et_pb_section .et_pb_button_0:hover{
+	color: #008081 !important;
+	background-color:transparent !important;
+}
+
+
+body #page-container .et_pb_section .et_pb_cta_2.et_pb_promo .et_pb_promo_button.et_pb_button, body .pum-container .et_pb_section .et_pb_cta_2.et_pb_promo .et_pb_promo_button.et_pb_button, body #page-container .et_pb_section .et_pb_cta_3.et_pb_promo .et_pb_promo_button.et_pb_button, body .pum-container .et_pb_section .et_pb_cta_3.et_pb_promo .et_pb_promo_button.et_pb_button{
+	background-color: #008081 !important;
+}
+
+body #page-container#page-container  .et_pb_section .et_pb_cta_1.et_pb_promo .et_pb_promo_button.et_pb_button, body .pum-container .et_pb_section .et_pb_cta_1.et_pb_promo .et_pb_promo_button.et_pb_button,
+body #page-container .et_pb_section .et_pb_cta_2.et_pb_promo .et_pb_promo_button.et_pb_button, body .pum-container .et_pb_section .et_pb_cta_2.et_pb_promo .et_pb_promo_button.et_pb_button, body #page-container .et_pb_section .et_pb_cta_3.et_pb_promo .et_pb_promo_button.et_pb_button, body .pum-container .et_pb_section .et_pb_cta_3.et_pb_promo .et_pb_promo_button.et_pb_button,
+ body #page-container .et_pb_section .et_pb_cta_2.et_pb_promo .et_pb_promo_button.et_pb_button, body .pum-container .et_pb_section .et_pb_cta_2.et_pb_promo .et_pb_promo_button.et_pb_button, body #page-container .et_pb_section .et_pb_cta_3.et_pb_promo .et_pb_promo_button.et_pb_button, body .pum-container .et_pb_section .et_pb_cta_3.et_pb_promo .et_pb_promo_button.et_pb_button{
+	background-color: #008081 !important;
+    color: #fff !important;
+}
+
+body #page-container#page-container .et_pb_section .et_pb_cta_2.et_pb_promo .et_pb_promo_button.et_pb_button:hover, body .pum-container .et_pb_section .et_pb_cta_2.et_pb_promo .et_pb_promo_button.et_pb_button:hover,
+body #page-container#page-container .et_pb_section .et_pb_cta_3.et_pb_promo .et_pb_promo_button.et_pb_button:hover, body .pum-container .et_pb_section .et_pb_cta_3.et_pb_promo .et_pb_promo_button.et_pb_button:hover,
+body #page-container#page-container .et_pb_section .et_pb_cta_1.et_pb_promo .et_pb_promo_button.et_pb_button:hover, body .pum-container .et_pb_section .et_pb_cta_1.et_pb_promo .et_pb_promo_button.et_pb_button:hover{
+	background-color: transparent !important;
+    color: #008081 !important;
+    border-radius: 65px!important;
+    letter-spacing: 1px!important;
+}
+
+
+body #page-container#page-container .et_pb_section .et_pb_contact_form_0.et_pb_contact_form_container.et_pb_module .et_pb_button, body .pum-container .et_pb_section .et_pb_contact_form_0.et_pb_contact_form_container.et_pb_module .et_pb_button{
+	background-color: #008081 !important;
+    color: #fff !important;
+	border-radius: 20px;
+	padding: 0.3em 2em !important;
 }
