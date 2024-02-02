@@ -132,6 +132,9 @@ form.pmpro_form .pmpro_asterisk abbr {
 	width: 50%;margin-bottom:25px
 }
 
+#top-menu li{
+	padding-right: 15px;
+}
 #top-menu a{
 	color: #141D47;
 	font-size: 18px;
@@ -141,7 +144,7 @@ form.pmpro_form .pmpro_asterisk abbr {
 	background: url(icon-login.svg) no-repeat;
     width: 45px;
     height: 45px;
-    background-size: cover;
+    background-size: contain;
     text-indent: -9999px;
     display: block;
 	position: relative;
@@ -175,4 +178,115 @@ form.pmpro_form .pmpro_asterisk abbr {
     box-shadow: 0px;
     box-shadow: 0px 0px 15px 1px rgba( 2, 2, 2, 0.75 );
     background-color: rgba( 0, 0, 0, 1.00 );
+}
+
+
+#top-menu a.gt-current-wrapper{
+	border: 1px solid #00726F;
+    border-radius: 50px;
+    color: #00726F;
+    padding: 0px 0 0 0 !important;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+}
+#et-secondary-nav .menu-item-has-children>a:first-child:after, #top-menu .menu-item-has-children>a:first-child:after{
+	right: -3px;
+}
+
+
+body{
+
+}
+.woocommerce.columns-4 {
+	
+}
+
+.woocommerce ul.products li.product a{
+	text-decoration: none;
+    border: 1px solid #008081;
+    display: flex;
+    height: 320px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px 16px;
+}
+.woocommerce.woocommerce ul.products li.product a .woocommerce-loop-product__title.woocommerce-loop-product__title{
+	color: #00726F !important;
+    font-size: 24px !important;
+	text-align: center !important;
+    width: 187px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+	font-weight: 400 !important;
+	line-height: normal;
+	min-height: 33px;
+    line-height: normal;
+}
+.woocommerce.woocommerce ul.products li.product a .price.price, .woocommerce.woocommerce ul.products li.product a .price .amount{
+	color: #141D47 !important;
+	font-size: 16px !important;
+	font-weight: 400 !important;
+}
+
+#et-secondary-nav .menu-item-has-children>a:first-child:after, #top-menu .menu-item-has-children>a:first-child:after{
+	right: -3px;
+}
+
+.et_portfolio_image, .et_shop_image{
+	position: relative;
+    display: flex;
+    height: 100%;
+}
+
+.woocommerce-page ul.products li.product a img, .woocommerce ul.products li.product a img{
+    margin: 0px!important;
+    height: 200px;
+    object-fit: cover;
+}
+
+.block-breadcrumbs{
+	position: relative;
+}
+
+.block-breadcrumbs:after{content: '';
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.6);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.dsm_breadcrumbs a , .dsm_breadcrumbs span{
+	color: #fff !important;
+	font-size: 18px !important;
+}
+
+h1, h2, h3, h4, h5, h6{
+	color: #00726F;
+}
+
+.page .et_pb_row  .et_pb_column .et_pb_module_header{
+	font-family: inherit !important;
+}
+
+
+
+.et_pb_text_0 h2{
+	background: url(icon-title.svg) no-repeat center;
+	padding: 50px 0;
+}
+
+
+.title-icon.center {
+	background: url(icon-title.svg) no-repeat center;
+	padding: 50px 0;
+}
+
+.title-icon.left {
+	background: url(icon-title.svg) no-repeat left;
+	padding: 50px 0;
 }
