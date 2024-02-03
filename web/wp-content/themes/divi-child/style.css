@@ -392,14 +392,26 @@ body .container .single-product .et_pb_column .et_pb_wc_price .price{
 .page .et_pb_row .et_pb_column .et_pb_module_header{
 	color: #fff !important;
 }
+body #page-container#page-container .et_pb_section .et_pb_contact_form_0.et_pb_contact_form_container.et_pb_module .et_pb_button, body .pum-container .et_pb_section .et_pb_contact_form_0.et_pb_contact_form_container.et_pb_module .et_pb_button{
+	border-radius: 50px;
+}
 
+
+body .container .single-product .et_pb_column_1  {
+	width: 80% !important;
+    margin: 0 auto !important;
+}
+
+body .container .single-product .et_pb_column{
+    font-size: 20px !important;
+}
 
 @media only screen and (max-width: 600px) {
 	body .container .single-product .et_pb_column{	
 		gap: 20px;
 	}
 	body .container .single-product .et_pb_column{
-		width: 100%;	
+		width: 100% !important;	
 	}
 
 	body .container .single-product .et_pb_column_1_4{
