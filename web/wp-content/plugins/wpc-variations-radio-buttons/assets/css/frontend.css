@@ -291,6 +291,13 @@
     height: auto;
 }
 
+.woovr-variations[class*="woovr-variations-grid"] .woovr-fieldset {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /* RTL */
 
 body.rtl .woovr-variation-selector .dd-option-image, body.rtl .woovr-variation-selector .dd-selected-image {
