@@ -416,6 +416,11 @@ body #page-container#page-container .et_pb_section .et_pb_button_0, body .pum-co
     border: 1px solid #008081 !important;
     border-radius: 50px !important;
     font-size: 16px !important;
+	padding: 15px !important;
+}
+
+.et_pb_cta_1.et_pb_promo.et_pb_cta_1.et_pb_promo .et_pb_promo_description div, .et_pb_cta_2.et_pb_promo.et_pb_cta_2.et_pb_promo .et_pb_promo_description div{
+	color: inherit !important;
 }
 
 body #page-container .et_pb_section .et_pb_button_3, body .pum-container .et_pb_section .et_pb_button_3, .woocommerce-page a.button.alt, .woocommerce.woocommerce a.button.alt{
@@ -505,6 +510,18 @@ body #page-container .et_pb_section .et_pb_button_3:hover, body .pum-container .
 #pmpro_levels_table .pmpro_btn{
 	border-radius: 50px !important;
 	border-color: #00726F;
+}
+
+.et_pb_text_3.et_pb_text_3 h2, .et_pb_text_5.et_pb_text_5 h2, .et_pb_text_6.et_pb_text_6 h3, .et_pb_text_8.et_pb_text_8 h2{
+	color: #008081 !important;
+}
+
+.et_pb_text_1.et_pb_text_1.et_pb_text, .et_pb_text_2.et_pb_text_2.et_pb_text, .et_pb_text_0.et_pb_text_0 h1{
+	color: #008081 !important;
+}
+
+body #page-container#page-container .et_pb_section .et_pb_button_1, body .pum-container .et_pb_section .et_pb_button_1, body #page-container#page-container .et_pb_section .et_pb_button_2, body .pum-container .et_pb_section .et_pb_button_2{
+	color: #008081 !important;
 }
 .woocommerce #payment #place_order:hover, .woocommerce-page #payment #place_order:hover, #pmpro_levels_table .pmpro_btn:hover{
 	color: #008081 !important;
