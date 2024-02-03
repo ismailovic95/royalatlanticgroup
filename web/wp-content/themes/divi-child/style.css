@@ -556,8 +556,26 @@ body #page-container#page-container .et_pb_section .et_pb_button_1, body .pum-co
 	top: 16px;
     right: 23px;
 }
+.et_pb_row_2_tb_footer.et_pb_row h6 {
+	padding-top: 0;
+    padding-bottom: 23px;
+}
+.et_pb_row_2_tb_footer.et_pb_row h6 font{
+	color: #141d47!important;
+}
 
+body #page-container#page-container .et_pb_section .et_pb_signup_0_tb_footer.et_pb_subscribe .et_pb_newsletter_button.et_pb_button, body .pum-container .et_pb_section .et_pb_signup_0_tb_footer.et_pb_subscribe .et_pb_newsletter_button.et_pb_button{
+	padding-top: 18px!important;
+    padding-bottom: 18px!important;
+	font-size: 12px !important;;
+}
+.et_pb_gutters3 .et_pb_column_4_4 .et_pb_module, .et_pb_gutters3.et_pb_row .et_pb_column_4_4 .et_pb_module{
+	padding-left: 20px !important;
+}
 
+.page .block-breadcrumbs.block-breadcrumbs .et_pb_row .et_pb_column .et_pb_module_header{
+	color: #fff !important;
+}
 
 @media only screen and (max-width: 800px) {
 	.et_pb_column_2_3 .et_pb_newsletter.et_pb_subscribe.et_pb_newsletter_layout_left_right, .et_pb_column_2_3 .et_pb_newsletter.et_pb_subscribe.et_pb_newsletter_layout_right_left, .et_pb_column_3_4 .et_pb_newsletter.et_pb_subscribe.et_pb_newsletter_layout_left_right, .et_pb_column_3_4 .et_pb_newsletter.et_pb_subscribe.et_pb_newsletter_layout_right_left, .et_pb_column_4_4 .et_pb_newsletter.et_pb_subscribe.et_pb_newsletter_layout_left_right, .et_pb_column_4_4 .et_pb_newsletter.et_pb_subscribe.et_pb_newsletter_layout_right_left{
