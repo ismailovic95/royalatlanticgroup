@@ -18,6 +18,6 @@ add_action( 'wp_enqueue_scripts', 'dt_enqueue_styles' );
 // Hide number of Theme Customizer cart items if cart is empty
 add_action( 'wp_footer', function() {
     if ( WC()->cart->is_empty() ) {
-        echo '<style type="text/css">.et-cart-info span:before { font-size:12px; } .et-cart-info span { font-size:0px; }</style>';
+        echo '<style type="text/css">.et_pb_menu__icon span:before { font-size:12px; } .et_pb_menu__icon span { font-size:0px; }</style>';
     }
 });

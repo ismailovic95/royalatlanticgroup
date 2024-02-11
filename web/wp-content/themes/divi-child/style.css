@@ -20,7 +20,7 @@ body .product-price, body .product-subtotal, body .woocs_special_price_code, bod
 body #page-container .et_pb_section .et_pb_contact_form_0.et_pb_contact_form_container.et_pb_module .et_pb_button, body #page-container .et_pb_section .et_pb_contact_form_0.et_pb_contact_form_container.et_pb_module .et_pb_button:hover{    border-color: transparent !important;
     border-color: transparent !important;
 }
-#top-menu-nav>ul>li>a:hover{
+#menu-menu-nav>ul>li>a:hover{
     color:#008081;
 }
 .img-pay-ft {
@@ -133,15 +133,15 @@ form.pmpro_form .pmpro_asterisk abbr {
 	width: 50%;margin-bottom:25px
 }
 
-#top-menu li{
+#menu-menu li{
 	padding-right: 15px;
 }
-#top-menu a{
+#menu-menu a{
 	color: #141D47;
 	font-size: 18px;
 }
 
-#top-menu .login  a{
+#menu-menu .login  a{
 	background: url(icon-login.svg) no-repeat;
     width: 45px;
     height: 45px;
@@ -149,7 +149,6 @@ form.pmpro_form .pmpro_asterisk abbr {
     text-indent: -9999px;
     display: block;
 	position: relative;
-    top: -15px;
 }
 
 .pum-theme-575 .pum-container, .pum-theme-lightbox .pum-container{
@@ -182,7 +181,7 @@ form.pmpro_form .pmpro_asterisk abbr {
 }
 
 
-#top-menu a.gt-current-wrapper{
+#menu-menu a.gt-current-wrapper{
 	border: 1px solid #00726F;
     border-radius: 50px;
     color: #00726F;
@@ -191,7 +190,7 @@ form.pmpro_form .pmpro_asterisk abbr {
     height: 45px;
     line-height: 45px;
 }
-#et-secondary-nav .menu-item-has-children>a:first-child:after, #top-menu .menu-item-has-children>a:first-child:after{
+#et-secondary-nav .menu-item-has-children>a:first-child:after, #menu-menu .menu-item-has-children>a:first-child:after{
 	right: -3px;
 }
 
@@ -226,7 +225,7 @@ form.pmpro_form .pmpro_asterisk abbr {
 	font-weight: 400 !important;
 }
 
-#et-secondary-nav .menu-item-has-children>a:first-child:after, #top-menu .menu-item-has-children>a:first-child:after{
+#et-secondary-nav .menu-item-has-children>a:first-child:after, #menu-menu .menu-item-has-children>a:first-child:after{
 	right: -3px;
 }
 

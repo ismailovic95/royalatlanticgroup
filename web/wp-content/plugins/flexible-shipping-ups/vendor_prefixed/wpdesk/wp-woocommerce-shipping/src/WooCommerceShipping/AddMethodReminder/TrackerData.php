@@ -17,6 +17,7 @@ class TrackerData implements \UpsFreeVendor\WPDesk\PluginBuilder\Plugin\Hookable
      * @param string $method_id
      * @param string $tracker_name
      */
+    private $tracker_name;
     public function __construct(string $method_id, string $tracker_name)
     {
         $this->method_id = $method_id;

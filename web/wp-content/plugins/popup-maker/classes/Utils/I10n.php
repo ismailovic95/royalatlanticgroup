@@ -129,19 +129,20 @@ class PUM_Utils_I10n {
 		];
 
 		$available_locales = self::available_locales();
-
-		$available_locales = array_keys( $available_locales );
-
-		foreach ( $variants as $variant ) {
-			if ( in_array( $variant, $available_locales ) ) {
-				return $variant;
+		if($available_locales){
+			$available_locales = array_keys( $available_locales );
+	
+			foreach ( $variants as $variant ) {
+				if ( in_array( $variant, $available_locales ) ) {
+					return $variant;
+				}
 			}
-		}
-
-		foreach ( $available_locales as $locale ) {
-			list( $locale_lang, ) = preg_split( '/[_-]/', $locale );
-			if ( $lang === $locale_lang ) {
-				return $locale;
+	
+			foreach ( $available_locales as $locale ) {
+				list( $locale_lang, ) = preg_split( '/[_-]/', $locale );
+				if ( $lang === $locale_lang ) {
+					return $locale;
+				}
 			}
 		}
 

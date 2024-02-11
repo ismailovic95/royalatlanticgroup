@@ -5,6 +5,7 @@
 if ( ! class_exists( 'DSM_Settings' ) ) :
 	class DSM_Settings {
 		private $settings_api;
+		private $licence;
 
 		function __construct() {
 
