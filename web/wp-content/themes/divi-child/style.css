@@ -130,7 +130,8 @@ form.pmpro_form .pmpro_asterisk abbr {
 
 
 .et_pb_menu--without-logo .et_pb_menu__menu>nav>ul>li{
-	width: 50%;margin-bottom:25px
+	width: 50%;
+	margin-bottom:25px;
 }
 
 #menu-menu li{
@@ -141,7 +142,7 @@ form.pmpro_form .pmpro_asterisk abbr {
 	font-size: 18px;
 }
 
-#menu-menu .login  a{
+#menu-menu .login a{
 	background: url(icon-login.svg) no-repeat;
     width: 45px;
     height: 45px;
@@ -260,25 +261,21 @@ form.pmpro_form .pmpro_asterisk abbr {
     object-fit: cover;
 }
 
-.block-breadcrumbs{
+.block-breadcrumbs, .block-breadcrumbs-singleproduct{
 	position: relative;
 }
-
-.block-breadcrumbs{
-
-}
-
-.block-breadcrumbs:after{content: '';
+.block-breadcrumbs:after, .block-breadcrumbs-singleproduct:after{
+	content: '';
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0,0,0,0.6);
+	background-color: rgb(255 255 255 / 60%);
 	position: absolute;
 	top: 0;
 	left: 0;
 }
 
 .dsm_breadcrumbs a , .dsm_breadcrumbs span, .dsm_breadcrumbs.dsm_breadcrumbs * {
-	color: #fff !important;
+	/* color: #fff !important; */
 	font-size: 18px !important;
 }
 
@@ -781,7 +778,9 @@ body #page-container .et_pb_section .et_pb_fullwidth_header_0 .et_pb_button_one.
 	background-color: #00726F;
 	color: #fff;
 }
-
+.single-product .product .woocommerce-breadcrumb{
+	display:none;
+}
 @media only screen and (max-width: 800px) {
 	.et_pb_column_2_3 .et_pb_newsletter.et_pb_subscribe.et_pb_newsletter_layout_left_right, .et_pb_column_2_3 .et_pb_newsletter.et_pb_subscribe.et_pb_newsletter_layout_right_left, .et_pb_column_3_4 .et_pb_newsletter.et_pb_subscribe.et_pb_newsletter_layout_left_right, .et_pb_column_3_4 .et_pb_newsletter.et_pb_subscribe.et_pb_newsletter_layout_right_left, .et_pb_column_4_4 .et_pb_newsletter.et_pb_subscribe.et_pb_newsletter_layout_left_right, .et_pb_column_4_4 .et_pb_newsletter.et_pb_subscribe.et_pb_newsletter_layout_right_left{
 		flex-direction: column;
