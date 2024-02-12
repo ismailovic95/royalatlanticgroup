@@ -187,7 +187,7 @@ form.pmpro_form .pmpro_asterisk abbr {
     border-radius: 50px;
     color: #00726F;
     padding: 0px 0 0 0 !important;
-    width: 50px;
+    width: 60px;
     height: 45px;
     line-height: 45px;
 	display: flex;
@@ -382,7 +382,7 @@ body #page-container#page-container .et_pb_section .et_pb_contact_form_0.et_pb_c
 body .container .single-product{
 	display: flex;
 	width: 100%;
-    align-items: center;
+	align-items: flex-start;
     flex-wrap: wrap;
     gap: 50px;
 }
@@ -447,6 +447,8 @@ body .container .single-product .et_pb_column_1  {
 	width: 60% !important;
     margin: 0 auto !important;
 }
+
+
 
 body .container .single-product .et_pb_column{
     font-size: 20px !important;
@@ -787,6 +789,13 @@ body #page-container .et_pb_section .et_pb_fullwidth_header_0 .et_pb_button_one.
     align-items: center;
     color: #141D47;
     font-size: 18px;
+}
+
+body #page-container#page-container .et_pb_cta_0_tb_header.et_pb_promo h1{
+	font-size: 50px !important;
+}
+.et-db #et-boc .et-l .et-menu>li:last-child{
+	padding-left: 0 !important;
 }
 @media only screen and (max-width: 800px) {
 	.et_pb_column_2_3 .et_pb_newsletter.et_pb_subscribe.et_pb_newsletter_layout_left_right, .et_pb_column_2_3 .et_pb_newsletter.et_pb_subscribe.et_pb_newsletter_layout_right_left, .et_pb_column_3_4 .et_pb_newsletter.et_pb_subscribe.et_pb_newsletter_layout_left_right, .et_pb_column_3_4 .et_pb_newsletter.et_pb_subscribe.et_pb_newsletter_layout_right_left, .et_pb_column_4_4 .et_pb_newsletter.et_pb_subscribe.et_pb_newsletter_layout_left_right, .et_pb_column_4_4 .et_pb_newsletter.et_pb_subscribe.et_pb_newsletter_layout_right_left{
