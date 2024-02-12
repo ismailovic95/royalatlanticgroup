@@ -31,15 +31,17 @@ function et_common_get_available_languages() {
 
 		$translations = wp_get_available_translations();
 	}
-
-	foreach ( $translations as $translation => $translation_data ) {
-		if ( ! isset( $translation_data['english_name'] ) ) {
-			continue;
+	if (is_array($translations) || is_object($translations))
+	{
+		foreach ( $translations as $translation => $translation_data ) {
+			if ( ! isset( $translation_data['english_name'] ) ) {
+				continue;
+			}
+	
+			$english_name = $translation_data['english_name'];
+	
+			$available_languages[ $english_name ] = $english_name;
 		}
-
-		$english_name = $translation_data['english_name'];
-
-		$available_languages[ $english_name ] = $english_name;
 	}
 
 	return $available_languages;

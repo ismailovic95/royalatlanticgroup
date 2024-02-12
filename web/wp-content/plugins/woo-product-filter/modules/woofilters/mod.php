@@ -27,6 +27,7 @@ class WoofiltersWpf extends ModuleWpf {
 	public $originalWCQuery              = null;
 	public static $otherShortcodeAttr    = array();
 	public $clausesByParam               = array();
+	public $fields               = array();
 
 	public function init() {
 		DispatcherWpf::addFilter( 'mainAdminTabs', array( $this, 'addAdminTab' ) );

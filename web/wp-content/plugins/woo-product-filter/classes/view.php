@@ -12,6 +12,8 @@ abstract class ViewWpf extends BaseObjectWpf {
 	 * @var string module code for this view
 	 */
 	protected $_code = '';
+	protected $viewId = '';
+	protected $html = '';
 
 	public function display( $tpl = '' ) {
 		$tpl = ( empty($tpl) ) ? $this->_tpl : $tpl;

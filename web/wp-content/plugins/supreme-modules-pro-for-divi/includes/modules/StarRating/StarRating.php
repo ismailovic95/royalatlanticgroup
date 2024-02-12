@@ -477,7 +477,7 @@ class DSM_Star_Rating extends ET_Builder_Module {
 					'tablet'  => $title_gap_responsive_active ? $title_gap_tablet : '',
 					'phone'   => $title_gap_responsive_active ? $title_gap_phone : '',
 				);
-				et_pb_responsive_options()->generate_responsive_css( $title_gap_values, "%%order_class%% .dsm-star-title-position-${title_display} .dsm-star-rating-title", "margin-${inline_position}", $render_slug );
+				et_pb_responsive_options()->generate_responsive_css( $title_gap_values, "%%order_class%% .dsm-star-title-position-{$title_display} .dsm-star-rating-title", "margin-{$inline_position}", $render_slug );
 			}
 		} else {
 			if ( '' !== $title_gap_tablet || '' !== $title_gap_phone || '' !== $title_gap ) {
@@ -488,7 +488,7 @@ class DSM_Star_Rating extends ET_Builder_Module {
 					'tablet'  => $title_gap_responsive_active ? $title_gap_tablet : '',
 					'phone'   => $title_gap_responsive_active ? $title_gap_phone : '',
 				);
-				et_pb_responsive_options()->generate_responsive_css( $title_gap_values, "%%order_class%% .dsm-star-title-position-${title_display} .dsm-star-rating-title", "margin-${stacked_position}", $render_slug );
+				et_pb_responsive_options()->generate_responsive_css( $title_gap_values, "%%order_class%% .dsm-star-title-position-{$title_display} .dsm-star-rating-title", "margin-{$stacked_position}", $render_slug );
 			}
 		}
 

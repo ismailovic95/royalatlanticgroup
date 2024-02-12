@@ -836,6 +836,11 @@ class ET_Builder_Element {
 	/**
 	 * ET_Builder_Element constructor.
 	 */
+
+	public $icon_path;
+	public $icon;
+	public $icon_element_selector;
+	public $icon_element_classname;
 	public function __construct() {
 
 		self::$current_module_index++;
@@ -1397,10 +1402,12 @@ class ET_Builder_Element {
 			et_debug( "{$message} Attempted to access {$class}::\${$name} from out of scope.", 4, false );
 			return;
 		}
-
+		
 		if ( ( ! $property_exists && ! $is_deprecated ) || ! $has_replacement ) {
 			// Always allow setting values for properties that are undeclared.
-			$this->$name = $value;
+			if($this->$name){
+				$this->$name = $value;
+			}
 		}
 
 		if ( ! $is_deprecated ) {
