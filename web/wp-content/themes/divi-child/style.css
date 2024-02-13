@@ -383,21 +383,21 @@ body .container .single-product{
 	display: flex;
 	width: 100%;
 	align-items: flex-start;
-    flex-wrap: wrap;
-    gap: 50px;
+    gap: 20px;
 }
 .product-template-default .price{
 	display: none;
 }
 body .container .single-product .et_pb_column{
-	width: calc(50% - 25px) !important;
+	width: calc(20% - 20px) !important;
     margin: 0 !important;
 }
 body .container .single-product .et_pb_column .et_pb_wc_title{
-	margin-bottom: 30px !important;
+	margin-bottom: 15px !important;
 }
+
 body .container .single-product .et_pb_column .et_pb_wc_title h1{
-	font-size: 50px !important;
+	font-size: 30px !important;
 }
 body .container .single-product .et_pb_column .et_pb_wc_price{
 	margin-bottom: 20px !important;
@@ -446,12 +446,14 @@ body #page-container#page-container .et_pb_section .et_pb_contact_form_0.et_pb_c
 body .container .single-product .et_pb_column_1  {
 	width: 60% !important;
     margin: 0 auto !important;
+    border: 1px solid #008081;
 }
 
 
 
 body .container .single-product .et_pb_column{
-    font-size: 20px !important;
+    font-size: 14px !important;
+	line-height: 1.5;
 }
 
 body #page-container#page-container .et_pb_section .et_pb_button_0, body .pum-container .et_pb_section .et_pb_button_0{
@@ -677,10 +679,20 @@ body #page-container .et_pb_section .et_pb_fullwidth_header_0 .et_pb_button_one.
     margin-right: auto !important;
     margin-left: auto !important;
 	padding: 0 15px;
+	width: 80%;
+    max-width: 1080px;
 }
+
+.filter-page .et_pb_gutters3 .et_pb_column_1_4, .filter-page .et_pb_gutters3.et_pb_row .et_pb_column_1_4 {
+    width: 24.875%;
+}
+.filter-page .et_pb_gutters3 .et_pb_column, .filter-page .et_pb_gutters3.et_pb_row .et_pb_column {
+    margin-right: 1.5%;
+}
+
 .filter-page .woocommerce ul.products li.product, .filter-page.woocommerce-page ul.products li.product{
-    margin: 0 16px 2.992em 0;
-    width: 29.1%;
+    margin: 0 8px 2.992em 8px;
+    width: 31.1%;
 }
 
 .filter-page  .wpfFilterTitle .wfpTitle{
@@ -701,6 +713,7 @@ body #page-container .et_pb_section .et_pb_fullwidth_header_0 .et_pb_button_one.
 }
 .filter-page #wpfBlock_2 .wpfButtonsFilter{
 	max-height: inherit;
+	overflow: hidden;
 }
 .filter-page #wpfBlock_2 .wpfButtonsFilter .wpfTermWrapper{
 	line-height: normal;
@@ -715,7 +728,10 @@ body #page-container .et_pb_section .et_pb_fullwidth_header_0 .et_pb_button_one.
     padding: 11px 42px 11px 22px;
 	min-height: 45px;
 }
-.filter-page #wpfBlock_2 .wpfButtonsFilter .wpfTermWrapper:hover{
+
+.filter-page #wpfBlock_2 .wpfButtonsFilter .wpfTermWrapper:hover, .filter-page #wpfBlock_2 .wpfButtonsFilter .wpfTermWrapper:hover, 
+.filter-page #wpfBlock_2 .wpfButtonsFilter .wpfTermWrapper.wpfTermChecked, .filter-page #wpfBlock_2 .wpfButtonsFilter .wpfTermWrapper.wpfTermChecked
+{
 	background-color: #008081;
     color: #ffffff;
     border: 1px solid #008081 !important;
@@ -797,7 +813,59 @@ body #page-container#page-container .et_pb_cta_0_tb_header.et_pb_promo h1{
 .et-db #et-boc .et-l .et-menu>li:last-child{
 	padding-left: 0 !important;
 }
-@media only screen and (max-width: 800px) {
+
+#page-container{
+	overflow: visible !important;
+}
+
+.filter-page  .et_pb_column_1_4, .filter-page .et_pb_column_1_4{
+	width: 23.5%;
+}
+
+.filter-page   .et_pb_column, .filter-page  .et_pb_column {
+    margin-right: 2%;
+}
+
+.et-db #et-boc .et-l .et_pb_wc_add_to_cart .quantity input.qty{
+	margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 1100px) {
+	.woocommerce ul.products li.product, .woocommerce-page ul.products li.product{
+		margin: 0 0.5% 2.992em 0.5%;
+		padding: 0;
+		position: relative;
+		width: 24%;
+		margin-left: inherit;
+	}
+	.et_pb_gutters3 .et_pb_column_1_4, .et_pb_gutters3.et_pb_row .et_pb_column_1_4 {
+		width: 100%;
+		margin: 0;
+	}
+	.et_pb_row .et_pb_column.et-last-child, .et_pb_row .et_pb_column:last-child, .et_pb_row_inner .et_pb_column.et-last-child, .et_pb_row_inner .et_pb_column:last-child{
+		width: 100%;
+	}
+	body .container .single-product{
+		gap: 10px
+	}
+	
+	body .container .single-product .et_pb_column {
+		width: calc(25% - 10px) !important;
+	}
+	body .container .single-product .et_pb_column_1{
+		width: 50% !important;
+	}	
+}
+
+@media only screen and (max-width: 1000px) {
+	.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+		margin: 0 1% 1% 1%;
+		padding: 0;
+		position: relative;
+		width: 49%;
+		margin-left: inherit;
+	}
+	
 	.et_pb_column_2_3 .et_pb_newsletter.et_pb_subscribe.et_pb_newsletter_layout_left_right, .et_pb_column_2_3 .et_pb_newsletter.et_pb_subscribe.et_pb_newsletter_layout_right_left, .et_pb_column_3_4 .et_pb_newsletter.et_pb_subscribe.et_pb_newsletter_layout_left_right, .et_pb_column_3_4 .et_pb_newsletter.et_pb_subscribe.et_pb_newsletter_layout_right_left, .et_pb_column_4_4 .et_pb_newsletter.et_pb_subscribe.et_pb_newsletter_layout_left_right, .et_pb_column_4_4 .et_pb_newsletter.et_pb_subscribe.et_pb_newsletter_layout_right_left{
 		flex-direction: column;
 	}
@@ -822,11 +890,22 @@ body #page-container#page-container .et_pb_cta_0_tb_header.et_pb_promo h1{
 	.et_pb_section_5.et_pb_section{
 		padding-bottom: 20px !important;
 	}
-	
+	.woocommerce-page ul.products li.product:nth-child(n) {
+		margin: 0 8px 7.5% 8px!important;
+		width: calc(50% - 16px) !important;
+		clear: none;
+		float: left!important;
+	}
+	.et_pb_menu_0_tb_header .et_pb_menu_inner_container>.et_pb_menu__logo-wrap, .et_pb_menu_0_tb_header .et_pb_menu__logo-slot{
+		width: 40% !important;
+	}
 }
 
 
 @media only screen and (max-width: 767px) {
+	body .container .single-product{
+		flex-wrap: wrap;
+	}
 	body .container .single-product .et_pb_column{	
 		gap: 20px;
 	}
@@ -868,5 +947,19 @@ body #page-container#page-container .et_pb_cta_0_tb_header.et_pb_promo h1{
 	}
 	.et_pb_fullwidth_header_0.et_pb_fullwidth_header .et_pb_fullwidth_header_subhead{
 		font-size: 45px;
+	}
+	.et_pb_text_7_tb_footer{
+		transform: inherit !important;
+	}
+	.woocommerce-page ul.products li.product:nth-child(n){
+		width: 100% !important;
+		margin: 0 0px 7.5% 0px!important;
+	}
+	.filter-page #wpfBlock_2 .wpfButtonsFilter .wpfTermWrapper{
+		margin: 0 0 15px 0;
+		width: 100%;
+	}
+	.et_pb_menu_0_tb_header .et_pb_menu_inner_container>.et_pb_menu__logo-wrap, .et_pb_menu_0_tb_header .et_pb_menu__logo-slot{
+		width: 50% !important;
 	}
 }
