@@ -825,7 +825,6 @@ body #page-container#page-container .et_pb_cta_0_tb_header.et_pb_promo h1{
 	margin-bottom: 5px;
 }
 .et-db #et-boc .et-l .et_pb_newsletter.et_pb_subscribe{
-	width: 80%;
 	margin: 0 auto;
 }
 
@@ -915,6 +914,7 @@ body #page-container#page-container .et_pb_cta_0_tb_header.et_pb_promo h1{
 
 	.et-db #et-boc .et-l .et_pb_newsletter.et_pb_subscribe{
 		width: 90% !important;
+		padding: 0 0 !important;
 	}
 	.et-db #et-boc .et-l .et_pb_row_1_tb_footer.et_pb_row{
 		width: 90% !important;
