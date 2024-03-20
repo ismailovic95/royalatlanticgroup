@@ -7,12 +7,18 @@
  Template: Divi
  Version: 1.0.0
 */
- 
+.GAjxjzj1uOEQI2NZMyTIdTYNljZVNDYtheme--light{
+ display:none;
+}
 /* =Theme customization starts here
 ------------------------------------------------------- */
 body .product-price, body .product-subtotal, body .woocs_special_price_code, body .amount, body .xoo-wsc-qty-price, body .variation-Quantity, body .woocs_price_info_list{
     font-family: Open Sans,Arial,sans-serif;
 	
+}
+#ppc-button-ppcp-gateway{
+    margin: 0 auto;
+    width: 300px;
 }
 .et_pb_scroll_top.et-pb-icon{
     background-color: #008081 !important;
@@ -839,6 +845,7 @@ body #page-container#page-container .et_pb_cta_0_tb_header.et_pb_promo h1{
 	height: 57px !important;
 	line-height: 30px !important;
 }
+
 .dsm_breadcrumbs_0 .dsm_breadcrumbs li.dsm_breadcrumbs_item.dsm_breadcrumbs_item_current, .dsm_breadcrumbs_0 .dsm_breadcrumbs li.dsm_breadcrumbs_item.dsm_breadcrumbs_item_current span{
 	color: #00726f!important;
 }
@@ -846,21 +853,46 @@ body #page-container#page-container .et_pb_cta_0_tb_header.et_pb_promo h1{
 .page .et_pb_row .et_pb_column .et_pb_module_header{
 	color: #00726f!important;
 }
-
-/*.et_pb_image .et_pb_image_wrap{
-	height: 100%;	
+.et_pb_text_0.et_pb_text_0.et_pb_text{
+	color: #141D47 !important;
+}
+.img-text ul li{
+	color: #141D47;
+}
+.et_pb_column_6{
+	background-color: transparent !important;
 }
 
-.et_pb_row_3.et_pb_row .et_pb_module.et_pb_image.et_pb_image_2{
-	height: 100%;
+.page .header  .et_pb_row .et_pb_column .et_pb_module_header{
+	font-size: 46px !important;
+    font-weight: bold;
+    text-align: left !important;
 }
 
-.et_pb_image .et_pb_image_wrap img{
-	height: 100%;
-	object-fit: cover;
+.four-block .et_pb_blurb_content .et_pb_main_blurb_image .et_pb_image_wrap{
+	max-width: 100% !important;
 }
-*/
 
+
+.our-products .et_pb_text_inner h2{
+    font-size: 50px;
+    line-height: 1.3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 20px;
+	padding: 20px 0;
+}
+
+.what-makes .et_pb_text_inner p{
+	color: #008081!important;
+	font-size: 40px !important;
+}
+
+
+.what-makes .et_pb_column_0{
+
+}
 
 body .et_pb_cta_3.et_pb_promo{
 	padding-bottom: 20px !important;
@@ -886,6 +918,27 @@ body .product-list .products.columns-4 li{
 	width: 24% !important;
     margin-right: 1% !important;
     margin-bottom: 1.5% !important;
+}
+
+.make-different .et_pb_module_header{
+	text-align: left !important;	
+	font-size: 22px;
+}
+
+.make-different .et_pb_blurb_description p{
+	text-align: left !important;
+}
+
+.make-different  .et_pb_main_blurb_image .et_pb_image_wrap{
+	width: 101px !important;
+}
+
+.make-different .et_pb_blurb_position_left .et_pb_blurb_container{
+	padding-left: 40px !important;
+}
+
+.et_pb_row_0.et_pb_row_0{
+	line-height: normal !important;
 }
 
 @media only screen and (max-width: 1100px) {
@@ -1124,9 +1177,7 @@ body .product-list .products.columns-4 li{
 	.et_pb_section.et_pb_section_0 .et_pb_row.et_pb_row_0{
 		background-color: rgba(255 ,255 ,255 ,0.4) !important;
 	}
-	.page .et_pb_row .et_pb_column .et_pb_module_header{
-		font-size: 12vw!important;
-	}
+	
 	body .et_pb_cta_2.et_pb_promo{
 		padding: 50px 0 !important;
 	}
@@ -1144,4 +1195,26 @@ body .product-list .products.columns-4 li{
 		padding-bottom: 20px!important;
 		padding-left: 20px!important;
 	}
-}
+	.et_pb_row_0.et_pb_row_0{
+		min-height: auto !important;
+		line-height: normal !important;
+	}
+	.what-makes .et_pb_text_inner p{
+		font-size: 35px !important;
+		line-height: normal;
+	}
+	.what-makes  .et_pb_column{
+		padding:  30px 0;
+	}
+	.make-different .et_pb_blurb_position_left .et_pb_blurb_container{
+		padding-left: 10px !important;
+	}
+
+	.et_pb_cta_2.et_pb_promo h2, .et_pb_cta_2.et_pb_promo h1.et_pb_module_header, .et_pb_cta_2.et_pb_promo h3.et_pb_module_header, .et_pb_cta_2.et_pb_promo h4.et_pb_module_header, .et_pb_cta_2.et_pb_promo h5.et_pb_module_header, .et_pb_cta_2.et_pb_promo h6.et_pb_module_header{
+		font-size: 35px !important;
+	}
+	.et_pb_cta_3.et_pb_promo h2, .et_pb_cta_3.et_pb_promo h1.et_pb_module_header, .et_pb_cta_3.et_pb_promo h3.et_pb_module_header, .et_pb_cta_3.et_pb_promo h4.et_pb_module_header, .et_pb_cta_3.et_pb_promo h5.et_pb_module_header, .et_pb_cta_3.et_pb_promo h6.et_pb_module_header{
+		font-size: 35px !important;
+	}
+}	
+
